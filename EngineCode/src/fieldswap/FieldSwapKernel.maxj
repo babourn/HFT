@@ -1,0 +1,46 @@
+package fieldswap;
+
+import com.maxeler.maxcompiler.v2.kernelcompiler.KernelParameters;
+import com.maxeler.networking.v1.framed_kernels.ByteOrder;
+import com.maxeler.networking.v1.framed_kernels.FrameData;
+import com.maxeler.networking.v1.framed_kernels.FrameFormat;
+import com.maxeler.networking.v1.framed_kernels.FramedKernel;
+import com.maxeler.networking.v1.kernel_types.UDPOneToOneRXType;
+import com.maxeler.networking.v1.kernel_types.UDPOneToOneTXType;
+
+public class FieldSwapKernel extends FramedKernel {
+
+	private static class TestFrameFormat extends FrameFormat {
+		public TestFrameFormat() {
+			super(ByteOrder.LITTLE_ENDIAN);
+
+			addField("field_a", dfeUInt(32));
+			addField("field_b", dfeUInt(32));
+		}
+	}
+
+	FieldSwapKernel(KernelParameters parameters) {
+		super(parameters);
+
+		TestFrameFormat testFrameFormat = new TestFrameFormat();
+
+		FrameData<TestFrameFormat> frameIn =
+			io.frameInput("frameIn", testFrameFormat, new UDPOneToOneRXType());
+
+		FrameData<TestFrameFormat> frameOut =
+			new FrameData<TestFrameFormat>(this, testFrameFormat, new UDPOneToOneTXType());
+
+		frameOut["field_a"] <== frameIn["field_b"];
+		frameOut["field_b"] <== frameIn["field_a"];
+
+		frameOut.linkfield[UDPOneToOneTXType.SOCKET] <==
+			frameIn.linkfield[UDPOneToOneRXType.SOCKET]; 
+
+		io.frameOutput(
+			"frameOut",
+			frameOut,
+			constant.var(true),
+			frameIn.isStart());
+	}
+
+}

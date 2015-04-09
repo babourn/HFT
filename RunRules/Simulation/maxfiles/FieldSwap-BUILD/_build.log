@@ -1,0 +1,667 @@
+Thu 15:43: PROGRESS: MaxCompiler version: 2014.2 (simulation only)
+Thu 15:43: PROGRESS: Build "FieldSwap" start time: Thu Apr 09 15:43:30 PDT 2015
+Thu 15:43: PROGRESS: Main build process running as user demo on host localhost.localdomain
+Thu 15:43: INFO    : Loading build properties from bundled MaxCompiler_build.conf...
+Thu 15:43: INFO    : No default external build property file has been specified.
+Thu 15:43: INFO    : (Set environment variable MAXCOMPILER_DEFAULT_CONF_FILE to assign one)
+Thu 15:43: INFO    : Loading user build properties from: /home/demo/.MaxCompiler_build_user.conf
+Thu 15:43: INFO    : No user-specified external build property file has been specified.
+Thu 15:43: INFO    : (Set environment variable MAXCOMPILER_BUILD_CONF_FILE to assign one)
+Thu 15:43: INFO    : Loading additional parameters from MAXCOMPILER_BUILD_CONF environment variable
+Thu 15:43: PROGRESS: Build location: /home/demo/Desktop/MaxCompiler-Builds/FieldSwap_VECTIS_DFE_SIM
+Thu 15:43: PROGRESS: Detailed build log available in "_build.log"
+Thu 15:43: INFO    : Created build manager FieldSwap (FieldSwap_VECTIS_DFE_SIM Thu Apr 09 15:43:30 PDT 2015). (15:43:30 09/04/15)
+Thu 15:43: INFO    : Working in dir: /home/demo/Desktop/MaxCompiler-Builds/FieldSwap_VECTIS_DFE_SIM
+Thu 15:43: INFO    : Java class path (2 paths):
+Thu 15:43: INFO    : 	/home/demo/workspace/spreads-max/EngineCode/bin
+Thu 15:43: INFO    : 	/opt/maxeler/maxcompiler/lib/MaxCompiler.jar
+Thu 15:43: INFO    : Java process started by 'main' method in class 'fieldswap.FieldSwapManager'.
+Thu 15:43: INFO    : build.arbitrated_core_cache parameter is blank, not using core-cache
+Thu 15:43: INFO    : Checking license files in directory: /opt/maxeler/maxcompiler/licenses
+Thu 15:43: INFO    : All license signatures valid.
+Thu 15:43: INFO    : Backing-up source-files (old source files in build directory will be removed first)...
+Thu 15:43: INFO    : Source directories: /home/demo/workspace/spreads-max/EngineCode/src:
+Thu 15:43: INFO    : Not deleting directory (does not exist): src
+Thu 15:43: INFO    : Copying source-files took 1.67572 ms
+Thu 15:43: PROGRESS: Instantiating manager
+Thu 15:43: PROGRESS: Instantiating kernel "FieldSwapKernel"
+Thu 15:43: PROGRESS: Compiling manager (Configurable)
+Thu 15:43: INFO    : SLiC mode information: adding mode 'default'
+Thu 15:43: INFO    : Manager Configuration:
+Thu 15:43: INFO    : 	ManagerConfiguration.allowNonMultipleTransitions = false                                                         [Init: false]
+Thu 15:43: INFO    : 	ManagerConfiguration.board = MAX3424A                                                                            [Init: null, init: MAX3424A]
+Thu 15:43: INFO    : 	ManagerConfiguration.build.buildEffort = MEDIUM                                                                  [Init: MEDIUM]
+Thu 15:43: INFO    : 	ManagerConfiguration.build.enableChipScopeInserter = false                                                       [Init: false]
+Thu 15:43: INFO    : 	ManagerConfiguration.build.enableTimingAnalysis = true                                                           [Init: true]
+Thu 15:43: INFO    : 	ManagerConfiguration.build.level = FULL_BUILD                                                                    [Init: FULL_BUILD]
+Thu 15:43: INFO    : 	ManagerConfiguration.build.mpprContinueAfterMeetingTiming = false                                                [Init: false]
+Thu 15:43: INFO    : 	ManagerConfiguration.build.mpprCtMax = 1                                                                         [Init: 1]
+Thu 15:43: INFO    : 	ManagerConfiguration.build.mpprCtMin = 1                                                                         [Init: 1]
+Thu 15:43: INFO    : 	ManagerConfiguration.build.mpprParallelism = 1                                                                   [Init: 1]
+Thu 15:43: INFO    : 	ManagerConfiguration.build.mpprRetryMissesThrshld = 0                                                            [Init: 0]
+Thu 15:43: INFO    : 	ManagerConfiguration.build.optGoal = BALANCED                                                                    [Init: BALANCED]
+Thu 15:43: INFO    : 	ManagerConfiguration.build.physSynthAsyncPipelining = AUTO                                                       [Init: AUTO]
+Thu 15:43: INFO    : 	ManagerConfiguration.build.physSynthCombLogic = AUTO                                                             [Init: AUTO]
+Thu 15:43: INFO    : 	ManagerConfiguration.build.physSynthCombLogicForArea = AUTO                                                      [Init: AUTO]
+Thu 15:43: INFO    : 	ManagerConfiguration.build.physSynthEffort = AUTO                                                                [Init: AUTO]
+Thu 15:43: INFO    : 	ManagerConfiguration.build.physSynthRegDuplication = AUTO                                                        [Init: AUTO]
+Thu 15:43: INFO    : 	ManagerConfiguration.build.physSynthRetiming = AUTO                                                              [Init: AUTO]
+Thu 15:43: INFO    : 	ManagerConfiguration.build.physicalSynthesis = false                                                             [Init: false]
+Thu 15:43: INFO    : 	ManagerConfiguration.buildTarget = DFE_SIM                                                                       [Init: null, init: DFE_SIM]
+Thu 15:43: INFO    : 	ManagerConfiguration.debug.chipscopeCaptureDepth = 4096                                                          [Init: 4096]
+Thu 15:43: INFO    : 	ManagerConfiguration.debug.fifoUnderOverFlowRegs = false                                                         [Init: false]
+Thu 15:43: INFO    : 	ManagerConfiguration.debug.memCtlDebugRegs = true                                                                [Init: true]
+Thu 15:43: INFO    : 	ManagerConfiguration.debug.memCtlExtraDebugRegs = false                                                          [Init: false]
+Thu 15:43: INFO    : 	ManagerConfiguration.debug.memMarginingSupport = false                                                           [Init: false]
+Thu 15:43: INFO    : 	ManagerConfiguration.debug.memPhyDebugRegister = NONE                                                            [Init: NONE]
+Thu 15:43: INFO    : 	ManagerConfiguration.debug.memPllLockDebugRegs = true                                                            [Init: true]
+Thu 15:43: INFO    : 	ManagerConfiguration.debug.streamStatus = false                                                                  [Init: false]
+Thu 15:43: INFO    : 	ManagerConfiguration.debug.streamStatusChecksums = false                                                         [Init: false]
+Thu 15:43: INFO    : 	ManagerConfiguration.dram.addressGeneratorsInSlowClock = false                                                   [Init: false]
+Thu 15:43: INFO    : 	ManagerConfiguration.dram.arbitrationMode = ROUND_ROBIN                                                          [Init: ROUND_ROBIN]
+Thu 15:43: INFO    : 	ManagerConfiguration.dram.burstSize = 8                                                                          [Init: 8]
+Thu 15:43: INFO    : 	ManagerConfiguration.dram.cmdFifoInReg = false                                                                   [Init: false]
+Thu 15:43: INFO    : 	ManagerConfiguration.dram.cmdFifoLutRam = false                                                                  [Init: false]
+Thu 15:43: INFO    : 	ManagerConfiguration.dram.cmdFifoRegInRam = true                                                                 [Init: true]
+Thu 15:43: INFO    : 	ManagerConfiguration.dram.cmdFifoSize = 31                                                                       [Init: 31]
+Thu 15:43: INFO    : 	ManagerConfiguration.dram.commandEchoModeEnabled = false                                                         [Init: false]
+Thu 15:43: INFO    : 	ManagerConfiguration.dram.commandEchoModeFifoDepth = 512                                                         [Init: 512]
+Thu 15:43: INFO    : 	ManagerConfiguration.dram.commandEchoModeStreamAlmostEmptyLatency = 792                                          [Init: 792]
+Thu 15:43: INFO    : 	ManagerConfiguration.dram.commandEchoModeStreamAlmostEmptyLatency = 8                                            [Init: 8]
+Thu 15:43: INFO    : 	ManagerConfiguration.dram.commandEchoModeStreamStallLatency = 8                                                  [Init: 8]
+Thu 15:43: INFO    : 	ManagerConfiguration.dram.dataFifoDepth = 512                                                                    [Init: 512]
+Thu 15:43: INFO    : 	ManagerConfiguration.dram.dataFifoLutRam = false                                                                 [Init: false]
+Thu 15:43: INFO    : 	ManagerConfiguration.dram.dataFifoWidth = 792                                                                    [Init: 792]
+Thu 15:43: INFO    : 	ManagerConfiguration.dram.eccMode = false                                                                        [Init: false]
+Thu 15:43: INFO    : 	ManagerConfiguration.dram.fabricDataFifoReg = true                                                               [Init: true]
+Thu 15:43: INFO    : 	ManagerConfiguration.dram.fabricRdDataFifoReg = false                                                            [Init: false]
+Thu 15:43: INFO    : 	ManagerConfiguration.dram.flagSupport = false                                                                    [Init: false]
+Thu 15:43: INFO    : 	ManagerConfiguration.dram.highPrioStream = false                                                                 [Init: false]
+Thu 15:43: INFO    : 	ManagerConfiguration.dram.max2CompatMode = false                                                                 [Init: false]
+Thu 15:43: INFO    : 	ManagerConfiguration.dram.max4m_GALAVA_MCP_UseRefClk = false                                                     [Init: false]
+Thu 15:43: INFO    : 	ManagerConfiguration.dram.max4m_MAIA_MCP_UseRefClk = false                                                       [Init: false]
+Thu 15:43: INFO    : 	ManagerConfiguration.dram.max4qrateMode = false                                                                  [Init: false]
+Thu 15:43: INFO    : 	ManagerConfiguration.dram.memCmdIncSize = 8                                                                      [Init: 8]
+Thu 15:43: INFO    : 	ManagerConfiguration.dram.memCmdStartAddrSize = 32                                                               [Init: 32]
+Thu 15:43: INFO    : 	ManagerConfiguration.dram.onCardMemFreq = 303.0                                                                  [Init: 0.0, change: 303.0]
+Thu 15:43: INFO    : 	ManagerConfiguration.dram.parEccDebugStream = false                                                              [Init: false]
+Thu 15:43: INFO    : 	ManagerConfiguration.dram.parityEccWidth = 0                                                                     [Init: 0]
+Thu 15:43: INFO    : 	ManagerConfiguration.dram.parityMode = false                                                                     [Init: false]
+Thu 15:43: INFO    : 	ManagerConfiguration.dram.perdqsPhaseDetect = false                                                              [Init: false]
+Thu 15:43: INFO    : 	ManagerConfiguration.dram.performanceMode = true                                                                 [Init: true]
+Thu 15:43: INFO    : 	ManagerConfiguration.enableMPCX = false                                                                          [Init: false, init: false]
+Thu 15:43: INFO    : 	ManagerConfiguration.maxring.maxringConnections = []                                                             [Init: []]
+Thu 15:43: INFO    : 	ManagerConfiguration.maxring.maxringNumLanes = {MAXRING_LITE_B=1, MAXRING_B=2, MAXRING_LITE_A=1, MAXRING_A=2}    [Init: {}]
+Thu 15:43: INFO    : 	ManagerConfiguration.multiCycleMappedMemoryBus = false                                                           [Init: false]
+Thu 15:43: INFO    : 	ManagerConfiguration.network.qsfpBotMode = QSFP_OFF                                                              [Init: QSFP_OFF]
+Thu 15:43: INFO    : 	ManagerConfiguration.network.qsfpMidMode = QSFP_OFF                                                              [Init: QSFP_OFF]
+Thu 15:43: INFO    : 	ManagerConfiguration.network.qsfpTopMode = QSFP_OFF                                                              [Init: QSFP_OFF]
+Thu 15:43: INFO    : 	ManagerConfiguration.pcie.numPCIeLanes = 0                                                                       [Init: 0]
+Thu 15:43: INFO    : 	ManagerConfiguration.pcie.pcieFastClock = false                                                                  [Init: false]
+Thu 15:43: INFO    : 	ManagerConfiguration.pcie.streamFromHostMaxNum = 8                                                               [Init: 0, change: 8]
+Thu 15:43: INFO    : 	ManagerConfiguration.pcie.streamToHostMaxNum = 8                                                                 [Init: 0, change: 8]
+Thu 15:43: INFO    : 	ManagerConfiguration.persona.boardModel = MAX3424A                                                               [Init: null, change: MAX3424A]
+Thu 15:43: INFO    : 	ManagerConfiguration.persona.ddr3Enable = false                                                                  [Init: false]
+Thu 15:43: INFO    : 	ManagerConfiguration.persona.ddr3Frq = 303.0                                                                     [Init: 400.0, change: 303.0]
+Thu 15:43: INFO    : 	ManagerConfiguration.persona.ddr3Qmode = false                                                                   [Init: false]
+Thu 15:43: INFO    : 	ManagerConfiguration.persona.disableMultiplePersona = true                                                       [Init: true]
+Thu 15:43: INFO    : 	ManagerConfiguration.persona.dynamic_scaling = false                                                             [Init: false]
+Thu 15:43: INFO    : 	ManagerConfiguration.persona.maxRingLocal = false                                                                [Init: false]
+Thu 15:43: INFO    : 	ManagerConfiguration.persona.maxRingOptical = false                                                              [Init: false]
+Thu 15:43: INFO    : 	ManagerConfiguration.persona.maxringDataRate = 2500.0                                                            [Init: 2500.0]
+Thu 15:43: INFO    : 	ManagerConfiguration.persona.maxringOpticalDataRate = 10000.0                                                    [Init: 10000.0]
+Thu 15:43: INFO    : 	ManagerConfiguration.persona.mode = InitMode                                                                     [Init: InitMode]
+Thu 15:43: INFO    : 	ManagerConfiguration.persona.networkPTP = OFF                                                                    [Init: OFF]
+Thu 15:43: INFO    : 	ManagerConfiguration.persona.networkQSFP_BOT = QSFP_OFF                                                          [Init: QSFP_OFF]
+Thu 15:43: INFO    : 	ManagerConfiguration.persona.networkQSFP_MID = QSFP_OFF                                                          [Init: QSFP_OFF]
+Thu 15:43: INFO    : 	ManagerConfiguration.persona.networkQSFP_TOP = QSFP_OFF                                                          [Init: QSFP_OFF]
+Thu 15:43: INFO    : 	ManagerConfiguration.persona.panMaxRingA = false                                                                 [Init: false]
+Thu 15:43: INFO    : 	ManagerConfiguration.persona.panMaxRingB = false                                                                 [Init: false]
+Thu 15:43: INFO    : 	ManagerConfiguration.persona.personaInterfaceVersion = 1                                                         [Init: 1]
+Thu 15:43: INFO    : 	ManagerConfiguration.persona.qdr2Enable = false                                                                  [Init: false]
+Thu 15:43: INFO    : 	ManagerConfiguration.persona.qdr2Frq = 550.0                                                                     [Init: 550.0]
+Thu 15:43: INFO    : 	ManagerConfiguration.persona.streamClks = 1                                                                      [Init: 1]
+Thu 15:43: INFO    : 	ManagerConfiguration.persona.streamFrq = [100.0]                                                                 [Init: [150.0], change: [100.0]]
+Thu 15:43: INFO    : 	ManagerConfiguration.persona.streamPs = [0]                                                                      [Init: [0]]
+Thu 15:43: INFO    : 	ManagerConfiguration.persona.usePCIeGen1 = false                                                                 [Init: false]
+Thu 15:43: INFO    : 	ManagerConfiguration.simulation.nativeFloatingPoint = false                                                      [Init: false]
+Thu 15:43: INFO    : 	ManagerConfiguration.streamClockFrq = 100                                                                        [Init: 100]
+Thu 15:43: INFO    : 	ManagerConfiguration.useLegacyStreamFIFOs = true                                                                 [Init: false, change: true]
+Thu 15:43: INFO    : 
+Thu 15:43: INFO    :  -- 
+Thu 15:43: PROGRESS: 
+Thu 15:43: PROGRESS: Compiling kernel "FieldSwapKernel"
+Thu 15:43: INFO    : Configuration:
+Thu 15:43: INFO    : 	KernelConfiguration.additionalInputPipelining = 64                                          [Init: 64]
+Thu 15:43: INFO    : 	KernelConfiguration.allowDSPCascading = true                                                [Init: true]
+Thu 15:43: INFO    : 	KernelConfiguration.allowInputsOutputsBeforeFlushNode = true                                [Init: false, change: true]
+Thu 15:43: INFO    : 	KernelConfiguration.allowZeroLatencyNodeHold = false                                        [Init: false]
+Thu 15:43: INFO    : 	KernelConfiguration.board = MAX3424A                                                        [Init: MAX2116B, change: MAX3424A]
+Thu 15:43: INFO    : 	KernelConfiguration.bramBitsThreshold = 2080                                                [Init: 2080]
+Thu 15:43: INFO    : 	KernelConfiguration.buildTarget = MAXCOMPILERSIM_HOST_DRIVEN                                [Init: NONE, change: MAXCOMPILERSIM_HOST_DRIVEN]
+Thu 15:43: INFO    : 	KernelConfiguration.cePipelining = 2                                                        [Init: 2]
+Thu 15:43: INFO    : 	KernelConfiguration.clockPhaseBalanceThreshold = 0.1                                        [Init: 0.1]
+Thu 15:43: INFO    : 	KernelConfiguration.clockPhasingRetries = 50                                                [Init: 50]
+Thu 15:43: INFO    : 	KernelConfiguration.dumpNeighboursString =                                                  [Init: ]
+Thu 15:43: INFO    : 	KernelConfiguration.enableCeReplication = true                                              [Init: true]
+Thu 15:43: INFO    : 	KernelConfiguration.enableClockPhasePartitioning = false                                    [Init: false]
+Thu 15:43: INFO    : 	KernelConfiguration.enableDebugIOControlRegs = true                                         [Init: true]
+Thu 15:43: INFO    : 	KernelConfiguration.enableDummyBuild = false                                                [Init: false]
+Thu 15:43: INFO    : 	KernelConfiguration.enableKernelProfiler = false                                            [Init: false]
+Thu 15:43: INFO    : 	KernelConfiguration.enablePipelinedComputeController = false                                [Init: false]
+Thu 15:43: INFO    : 	KernelConfiguration.enableShadowRegister = false                                            [Init: false]
+Thu 15:43: INFO    : 	KernelConfiguration.enableSmartKernelControl = false                                        [Init: false]
+Thu 15:43: INFO    : 	KernelConfiguration.fifoSrlRegisterStages = 1                                               [Init: 1]
+Thu 15:43: INFO    : 	KernelConfiguration.flushOnInputDataCongtiguous = false                                     [Init: false]
+Thu 15:43: INFO    : 	KernelConfiguration.hardwareDebugDepth = 512                                                [Init: 512]
+Thu 15:43: INFO    : 	KernelConfiguration.hwHierarchyMode = UNSET                                                 [Init: UNSET]
+Thu 15:43: INFO    : 	KernelConfiguration.latencyAnnotation = false                                               [Init: false]
+Thu 15:43: INFO    : 	KernelConfiguration.latencyAnnotationIOs =                                                  [Init: null]
+Thu 15:43: INFO    : 	KernelConfiguration.maxCoalescedFifoWidth = 2147483647                                      [Init: 2147483647]
+Thu 15:43: INFO    : 	KernelConfiguration.maxPreAdderFanOut = 1                                                   [Init: 1]
+Thu 15:43: INFO    : 	KernelConfiguration.netlistMode = false                                                     [Init: false]
+Thu 15:43: INFO    : 	KernelConfiguration.numPhotonStateMachines = 2                                              [Init: 1, change: 2]
+Thu 15:43: INFO    : 	KernelConfiguration.optimizations.ceCounterRegisterDuplication = 1                          [Init: 1]
+Thu 15:43: INFO    : 	KernelConfiguration.optimizations.conditionalArithmetic = false                             [Init: true, Init after BuildTarget change: false]
+Thu 15:43: INFO    : 	KernelConfiguration.optimizations.counterChainWrapPipelining = 0                            [Init: 0]
+Thu 15:43: INFO    : 	KernelConfiguration.optimizations.dspAddChain = OPTIMISE_IGNORE_PREADDER                    [Init: null, Init after BuildTarget change: OPTIMISE_IGNORE_PREADDER]
+Thu 15:43: INFO    : 	KernelConfiguration.optimizations.enableActiveFanoutReduction = false                       [Init: false]
+Thu 15:43: INFO    : 	KernelConfiguration.optimizations.enableBUFGCE = false                                      [Init: false]
+Thu 15:43: INFO    : 	KernelConfiguration.optimizations.enableBetterInputRegistering = false                      [Init: false]
+Thu 15:43: INFO    : 	KernelConfiguration.optimizations.enableBetterRegistering = false                           [Init: false]
+Thu 15:43: INFO    : 	KernelConfiguration.optimizations.enableFIFOCoalescingAcrossPlacementConstraints = false    [Init: false]
+Thu 15:43: INFO    : 	KernelConfiguration.optimizations.enableFifoCoalescing = true                               [Init: true]
+Thu 15:43: INFO    : 	KernelConfiguration.optimizations.enableFullPrecisionBinaryOpConstants = true               [Init: false, change: true]
+Thu 15:43: INFO    : 	KernelConfiguration.optimizations.enableIntegratedRounding = false                          [Init: false]
+Thu 15:43: INFO    : 	KernelConfiguration.optimizations.enableMappedMemoryHostReadBack = true                     [Init: true]
+Thu 15:43: INFO    : 	KernelConfiguration.optimizations.enableMultiCycleReset = false                             [Init: false]
+Thu 15:43: INFO    : 	KernelConfiguration.optimizations.enablePowerTwoFloatMult = true                            [Init: true]
+Thu 15:43: INFO    : 	KernelConfiguration.optimizations.enableRedundantNodeDeletion = true                        [Init: true]
+Thu 15:43: INFO    : 	KernelConfiguration.optimizations.enableStateMachineRegisterMerging = true                  [Init: true]
+Thu 15:43: INFO    : 	KernelConfiguration.optimizations.inputFlushDistanceFactor = 100                            [Init: 0, change: 100]
+Thu 15:43: INFO    : 	KernelConfiguration.optimizations.minimumStaticFIFOSplitDepth = 1                           [Init: 1]
+Thu 15:43: INFO    : 	KernelConfiguration.optimizations.optimizationTechnique = DEFAULT                           [Init: DEFAULT]
+Thu 15:43: INFO    : 	KernelConfiguration.optimizations.triAdd = false                                            [Init: true, Init after BuildTarget change: false]
+Thu 15:43: INFO    : 	KernelConfiguration.partialReconfBlockName =                                                [Init: ]
+Thu 15:43: INFO    : 	KernelConfiguration.partialReconfMode = false                                               [Init: false]
+Thu 15:43: INFO    : 	KernelConfiguration.partialReconfTemplate = false                                           [Init: false]
+Thu 15:43: INFO    : 	KernelConfiguration.replicateNodeCeLog2NumPartitions = 0                                    [Init: 0]
+Thu 15:43: INFO    : 	KernelConfiguration.romBRAMBitsThreshold = 2080                                             [Init: 2080]
+Thu 15:43: INFO    : 	KernelConfiguration.simulation.ramAddressCollisionBehaviour = EXCEPTION                     [Init: EXCEPTION]
+Thu 15:43: INFO    : 	KernelConfiguration.simulation.ramOutOfBoundsAccessBehaviour = EXCEPTION                    [Init: EXCEPTION]
+Thu 15:43: INFO    : 	KernelConfiguration.simulation.simProgressMessageFrequency = 0                              [Init: 0]
+Thu 15:43: INFO    : 
+Thu 15:43: INFO    :  -- 
+Thu 15:43: INFO    : Writing current graph to: FieldSwap-FieldSwapKernel-original.pxg
+Thu 15:43: INFO    : Running kernel graph-pass 'GeneratePXG'.
+Thu 15:43: INFO    : Graph-pass 'GeneratePXG' took 277.161 ms (1 iterations)
+Thu 15:43: INFO    : Running kernel graph-pass 'MarkConstantPass'.
+Thu 15:43: INFO    : Graph-pass 'MarkConstantPass' took 1.08728 ms (1 iterations)
+Thu 15:43: INFO    : Running kernel graph-pass 'ReachabilityPass'.
+Thu 15:43: INFO    : Graph-pass 'ReachabilityPass' took 3.68283 ms (1 iterations)
+Thu 15:43: INFO    : Running kernel graph-pass 'FindInputsLeadingToFlush'.
+Thu 15:43: INFO    : Graph-pass 'FindInputsLeadingToFlush' took 181.230 µs (1 iterations)
+Thu 15:43: INFO    : Running kernel graph-pass 'CheckForStatefulToFlushViolations'.
+Thu 15:43: INFO    : Graph-pass 'CheckForStatefulToFlushViolations' took 334.561 µs (1 iterations)
+Thu 15:43: INFO    : Running kernel graph-pass 'CheckForInputToFlushViolations'.
+Thu 15:43: INFO    : Graph-pass 'CheckForInputToFlushViolations' took 1.17921 ms (1 iterations)
+Thu 15:43: INFO    : Not deleting directory (does not exist): neighbours
+Thu 15:43: INFO    : Running Photon pre-schedule graph optimisations
+Thu 15:43: INFO    : Running kernel graph-pass 'AlignOrEradicatePrintfs'.
+Thu 15:43: INFO    : Graph-pass 'AlignOrEradicatePrintfs' took 88.0440 µs (1 iterations)
+Thu 15:43: INFO    : Running kernel graph-pass 'FoldConstantsPass'.
+Thu 15:43: INFO    : Graph-pass 'FoldConstantsPass' took 6.67322 ms (2 iterations)
+Thu 15:43: INFO    : Running kernel graph-pass 'OptimiseNodesPass'.
+Thu 15:43: INFO    : Graph-pass 'OptimiseNodesPass' took 19.4350 ms (2 iterations)
+Thu 15:43: INFO    : Running kernel graph-pass 'DeleteRedundantNodes'.
+Thu 15:43: INFO    : Graph-pass 'DeleteRedundantNodes' took 90.0230 µs (1 iterations)
+Thu 15:43: INFO    : Running kernel graph-pass 'DSPMultiplyAddExtractionPass'.
+Thu 15:43: INFO    : Optimized 0 sub-graphs into DSP multiply/add chains (Virtex5 mode).
+Thu 15:43: INFO    : Graph-pass 'DSPMultiplyAddExtractionPass' took 13.8817 ms (1 iterations)
+Thu 15:43: INFO    : Running kernel graph-pass 'PO2FPMultOptimiser'.
+Thu 15:43: INFO    : Graph-pass 'PO2FPMultOptimiser' took 87.1230 µs (1 iterations)
+Thu 15:43: INFO    : Running Photon simulation preparation
+Thu 15:43: INFO    : Running kernel graph-pass 'PrepareSimulationPass'.
+Thu 15:43: INFO    : Graph-pass 'PrepareSimulationPass' took 92.3070 µs (1 iterations)
+Thu 15:43: INFO    : Logging Photon stats to: FieldSwapKernel_photon_stats.csv
+Thu 15:43: INFO    : Running kernel graph-pass 'StatsPass'.
+Thu 15:43: INFO    : Graph-pass 'StatsPass' took 1.05057 ms (1 iterations)
+Thu 15:43: INFO    : Running kernel graph-pass 'CollectNumericExceptions'.
+Thu 15:43: INFO    : Graph-pass 'CollectNumericExceptions' took 80.2890 µs (1 iterations)
+Thu 15:43: INFO    : Running kernel graph-pass 'StreamOffsetDivExpand'.
+Thu 15:43: INFO    : Graph-pass 'StreamOffsetDivExpand' took 73.2190 µs (1 iterations)
+Thu 15:43: INFO    : Running kernel graph-pass 'FindIllegalLoops'.
+Thu 15:43: INFO    : Graph-pass 'FindIllegalLoops' took 1.34583 ms (1 iterations)
+Thu 15:43: INFO    : Running kernel graph-pass 'MarkConstantPass'.
+Thu 15:43: INFO    : Graph-pass 'MarkConstantPass' took 148.386 µs (1 iterations)
+Thu 15:43: INFO    : Running kernel graph-pass 'ScheduleVariables'.
+Thu 15:43: INFO    : Graph-pass 'ScheduleVariables' took 1.93287 ms (1 iterations)
+Thu 15:43: INFO    : Running kernel graph-pass 'SubstituteEqPlaceholders'.
+Thu 15:43: INFO    : Graph-pass 'SubstituteEqPlaceholders' took 47.3010 µs (1 iterations)
+Thu 15:43: INFO    : Running kernel graph-pass 'ScheduleApplier'.
+Thu 15:43: INFO    : Graph-pass 'ScheduleApplier' took 2.31281 ms (1 iterations)
+Thu 15:43: INFO    : Running kernel graph-pass 'MarkConstantPass'.
+Thu 15:43: INFO    : Graph-pass 'MarkConstantPass' took 125.910 µs (1 iterations)
+Thu 15:43: INFO    : Running kernel graph-pass 'ScheduleDumper'.
+Thu 15:43: INFO    : Graph-pass 'ScheduleDumper' took 1.22053 ms (1 iterations)
+Thu 15:43: INFO    : Running Photon post-schedule graph optimisations (pass 1)
+Thu 15:43: INFO    : Running kernel graph-pass 'TapFIFOsPass'.
+Thu 15:43: INFO    : Graph-pass 'TapFIFOsPass' took 567.531 µs (1 iterations)
+Thu 15:43: INFO    : Running kernel graph-pass 'FoldFIFOsPass'.
+Thu 15:43: INFO    : Graph-pass 'FoldFIFOsPass' took 157.372 µs (1 iterations)
+Thu 15:43: INFO    : Running kernel graph-pass 'MarkConstantPass'.
+Thu 15:43: INFO    : Graph-pass 'MarkConstantPass' took 121.647 µs (1 iterations)
+Thu 15:43: INFO    : Running kernel graph-pass 'ValidateFIFOs'.
+Thu 15:43: INFO    : Graph-pass 'ValidateFIFOs' took 58.8070 µs (1 iterations)
+Thu 15:43: INFO    : Running kernel graph-pass 'MarkConstantPass'.
+Thu 15:43: INFO    : Graph-pass 'MarkConstantPass' took 123.476 µs (1 iterations)
+Thu 15:43: INFO    : Running kernel graph-pass 'ScheduleDumper'.
+Thu 15:43: INFO    : Graph-pass 'ScheduleDumper' took 2.38473 ms (1 iterations)
+Thu 15:43: INFO    : Running kernel graph-pass 'MarkConstantPass'.
+Thu 15:43: INFO    : Graph-pass 'MarkConstantPass' took 109.581 µs (1 iterations)
+Thu 15:43: INFO    : Running kernel graph-pass 'ScheduleConstants'.
+Thu 15:43: INFO    : Running command: cbc "FieldSwapKernel_schedule_C.mps.gz" -solve  -printi csv -solu "FieldSwapKernel_schedule_C.csv" > "FieldSwapKernel_schedule_C.stdout.log"
+Thu 15:43: INFO    : Optimum found: 613
+Thu 15:43: INFO    : Graph-pass 'ScheduleConstants' took 201.044 ms (1 iterations)
+Thu 15:43: INFO    : Running kernel graph-pass 'MarkConstantPass'.
+Thu 15:43: INFO    : Graph-pass 'MarkConstantPass' took 148.799 µs (1 iterations)
+Thu 15:43: INFO    : Running kernel graph-pass 'ScheduleDumper'.
+Thu 15:43: INFO    : Graph-pass 'ScheduleDumper' took 1.01786 ms (1 iterations)
+Thu 15:43: INFO    : Running kernel graph-pass 'SubstituteEqPlaceholders'.
+Thu 15:43: INFO    : Graph-pass 'SubstituteEqPlaceholders' took 41.9330 µs (1 iterations)
+Thu 15:43: INFO    : Running kernel graph-pass 'RemoveDistMeasurementNodes'.
+Thu 15:43: INFO    : Graph-pass 'RemoveDistMeasurementNodes' took 9.93500 µs (1 iterations)
+Thu 15:43: INFO    : Running kernel graph-pass 'ScheduleApplier'.
+Thu 15:43: INFO    : Graph-pass 'ScheduleApplier' took 19.1073 ms (1 iterations)
+Thu 15:43: INFO    : Maximum stream latency for kernel 'FieldSwapKernel': 12
+Thu 15:43: INFO    : Using user logic for flush.
+Thu 15:43: INFO    : Running Photon post-schedule graph optimisations (pass 2)
+Thu 15:43: INFO    : Running kernel graph-pass 'TapFIFOsPass'.
+Thu 15:43: INFO    : Graph-pass 'TapFIFOsPass' took 8.73632 ms (2 iterations)
+Thu 15:43: INFO    : Running kernel graph-pass 'FoldFIFOsPass'.
+Thu 15:43: INFO    : Graph-pass 'FoldFIFOsPass' took 490.506 µs (1 iterations)
+Thu 15:43: INFO    : Running kernel graph-pass 'MarkConstantPass'.
+Thu 15:43: INFO    : Graph-pass 'MarkConstantPass' took 109.904 µs (1 iterations)
+Thu 15:43: INFO    : Running kernel graph-pass 'ScheduleAsserter'.
+Thu 15:43: INFO    : Graph-pass 'ScheduleAsserter' took 2.70909 ms (1 iterations)
+Thu 15:43: INFO    : Running kernel graph-pass 'ReplaceEvalStreamOffsetNodes'.
+Thu 15:43: INFO    : Graph-pass 'ReplaceEvalStreamOffsetNodes' took 95.4030 µs (1 iterations)
+Thu 15:43: INFO    : Running kernel graph-pass 'FIFOReport'.
+Thu 15:43: INFO    : Graph-pass 'FIFOReport' took 1.59595 ms (1 iterations)
+Thu 15:43: INFO    : Running kernel graph-pass 'StatsPass'.
+Thu 15:43: INFO    : Graph-pass 'StatsPass' took 704.248 µs (1 iterations)
+Thu 15:43: INFO    : Running kernel graph-pass 'RemoveUntypedConstants'.
+Thu 15:43: INFO    : Graph-pass 'RemoveUntypedConstants' took 8.40066 ms (1 iterations)
+Thu 15:43: INFO    : Running kernel graph-pass 'VariableSizeMappedRegInserter'.
+Thu 15:43: INFO    : Graph-pass 'VariableSizeMappedRegInserter' took 72.8280 µs (1 iterations)
+Thu 15:43: INFO    : Running kernel graph-pass 'MarkConstantPass'.
+Thu 15:43: INFO    : Graph-pass 'MarkConstantPass' took 114.445 µs (1 iterations)
+Thu 15:43: INFO    : Running kernel graph-pass 'MakeMaxFileNodeData'.
+Thu 15:43: INFO    : Graph-pass 'MakeMaxFileNodeData' took 3.45099 ms (1 iterations)
+Thu 15:43: INFO    : Running kernel graph-pass 'MoveFanoutRegsForwards'.
+Thu 15:43: INFO    : Graph-pass 'MoveFanoutRegsForwards' took 67.6910 µs (1 iterations)
+Thu 15:43: INFO    : Running kernel graph-pass 'FindAndMinimiseMaximumNodeLatency'.
+Thu 15:43: INFO    : Split 6 static FIFOs into 12 FIFOs.
+Thu 15:43: INFO    : Graph-pass 'FindAndMinimiseMaximumNodeLatency' took 9.62475 ms (1 iterations)
+Thu 15:43: INFO    : Maximum node latency for 'FieldSwapKernel' = 4 (ID = 11).
+Thu 15:43: INFO    : Optimization report for Kernel 'FieldSwapKernel'.
+Thu 15:43: INFO    : Enabled optimizations:
+Thu 15:43: INFO    : 	DSP-Multiplication
+Thu 15:43: INFO    : 	Power-of-2 Floating Point
+Thu 15:43: INFO    : Creating a preliminary MaxCompilerDesignData.dat. (@ CoreCompile FieldSwapKernel)
+Thu 15:43: INFO    : Total compilation of 'FieldSwapKernel' took 788.893 ms.
+Thu 15:43: INFO    : Running kernel graph-pass 'MarkConstantPass'.
+Thu 15:43: INFO    : Graph-pass 'MarkConstantPass' took 179.733 µs (1 iterations)
+Thu 15:43: INFO    : Running kernel graph-pass 'MaxConstantLatency'.
+Thu 15:43: INFO    : Graph-pass 'MaxConstantLatency' took 245.801 µs (1 iterations)
+Thu 15:43: INFO    : Running kernel graph-pass 'SimCodeGraphPass'.
+Thu 15:43: INFO    : Graph-pass 'SimCodeGraphPass' took 15.7768 ms (1 iterations)
+Thu 15:43: INFO    : Writing current graph to: FieldSwap-FieldSwapKernel-final-simulation.pxg
+Thu 15:43: INFO    : Running kernel graph-pass 'GeneratePXG'.
+Thu 15:43: INFO    : Graph-pass 'GeneratePXG' took 35.9843 ms (1 iterations)
+Thu 15:43: INFO    : FOUND MANAGER CYCLE ch2_sfp1_arp_server -> ch2_sfp1_eth_tx_PacketMux
+Thu 15:43: INFO    : FOUND MANAGER CYCLE ch2_sfp1_icmp_echo_server -> ch2_sfp1_eth_tx_PacketMux
+Thu 15:43: INFO    : FOUND MANAGER CYCLE ch2_sfp1_udp_rx_EOFEFrameDrop -> FieldSwapKernel
+Thu 15:43: INFO    : Running manager compiler graph-pass: GenerateMXGInfo
+Thu 15:43: INFO    : Running manager compiler graph-pass: ScheduleStallLatency
+Thu 15:43: INFO    : Running manager compiler graph-pass: ClockWidthAssignment
+Thu 15:43: INFO    : Running manager compiler graph-pass: InsertDualAspectLogic
+Thu 15:43: INFO    : Running manager compiler graph-pass: ClockWidthAssignment
+Thu 15:43: INFO    : Running manager compiler graph-pass: InsertPullPushAdapter
+Thu 15:43: INFO    : Running manager compiler graph-pass: ClockWidthAssignment
+Thu 15:43: INFO    : Running manager compiler graph-pass: InsertStreamFifos
+Thu 15:43: INFO    : Running manager compiler graph-pass: ClockWidthAssignment
+Thu 15:43: INFO    : Running manager compiler graph-pass: InsertStreamStatus
+Thu 15:43: INFO    : Running manager compiler graph-pass: InsertChipscope
+Thu 15:43: INFO    : Inserted 0 chipscope manager nodes.
+Thu 15:43: INFO    : Running manager compiler graph-pass: ClockWidthAssignment
+Thu 15:43: INFO    : Running manager compiler graph-pass: ReportClockAssignments
+Thu 15:43: INFO    : Running manager compiler graph-pass: BuildSoftwareSim
+Thu 15:43: INFO    : Mapped register report:
+Thu 15:43: INFO    : 	0	io_frameIn_force_disabled	1bytes
+Thu 15:43: INFO    : 	1	io_frameOut_force_disabled	1bytes
+Thu 15:43: INFO    : 	2	current_run_cycle_count	6bytes
+Thu 15:43: INFO    : 	8	dbg_ctld_almost_empty	1bytes
+Thu 15:43: INFO    : 	9	dbg_ctld_done	1bytes
+Thu 15:43: INFO    : 	a	dbg_ctld_empty	1bytes
+Thu 15:43: INFO    : 	b	dbg_ctld_read	1bytes
+Thu 15:43: INFO    : 	c	dbg_ctld_read_pipe_dbg	1bytes
+Thu 15:43: INFO    : 	d	dbg_ctld_request	1bytes
+Thu 15:43: INFO    : 	e	dbg_done_out	1bytes
+Thu 15:43: INFO    : 	f	dbg_fill_level	1bytes
+Thu 15:43: INFO    : 	10	dbg_flush_level	1bytes
+Thu 15:43: INFO    : 	11	dbg_flush_start	1bytes
+Thu 15:43: INFO    : 	12	dbg_flush_start_level	1bytes
+Thu 15:43: INFO    : 	13	dbg_flushing	1bytes
+Thu 15:43: INFO    : 	14	dbg_full_level	1bytes
+Thu 15:43: INFO    : 	15	dbg_out_stall	1bytes
+Thu 15:43: INFO    : 	16	dbg_out_valid	1bytes
+Thu 15:43: INFO    : 	17	dbg_stall_vector	1bytes
+Thu 15:43: INFO    : 	18	eofCount	8bytes
+Thu 15:43: INFO    : 	20	sofCount	8bytes
+Thu 15:43: INFO    : 	28	self_ip	4bytes
+Thu 15:43: INFO    : 	2c	self_mac	6bytes
+Thu 15:43: INFO    : 	32	badFramesCounter	8bytes
+Thu 15:43: INFO    : 	3a	enable	1bytes
+Thu 15:43: INFO    : 	3b	ip_address	4bytes
+Thu 15:43: INFO    : 	3f	mac_address	6bytes
+Thu 15:43: INFO    : 	45	bcast_ip	4bytes
+Thu 15:43: INFO    : 	49	filter_local_port_0	2bytes
+Thu 15:43: INFO    : 	4b	filter_local_port_1	2bytes
+Thu 15:43: INFO    : 	4d	filter_local_port_10	2bytes
+Thu 15:43: INFO    : 	4f	filter_local_port_11	2bytes
+Thu 15:43: INFO    : 	51	filter_local_port_12	2bytes
+Thu 15:43: INFO    : 	53	filter_local_port_13	2bytes
+Thu 15:43: INFO    : 	55	filter_local_port_14	2bytes
+Thu 15:43: INFO    : 	57	filter_local_port_15	2bytes
+Thu 15:43: INFO    : 	59	filter_local_port_2	2bytes
+Thu 15:43: INFO    : 	5b	filter_local_port_3	2bytes
+Thu 15:43: INFO    : 	5d	filter_local_port_4	2bytes
+Thu 15:43: INFO    : 	5f	filter_local_port_5	2bytes
+Thu 15:43: INFO    : 	61	filter_local_port_6	2bytes
+Thu 15:43: INFO    : 	63	filter_local_port_7	2bytes
+Thu 15:43: INFO    : 	65	filter_local_port_8	2bytes
+Thu 15:43: INFO    : 	67	filter_local_port_9	2bytes
+Thu 15:43: INFO    : 	69	filter_mcast_ip_0	4bytes
+Thu 15:43: INFO    : 	6d	filter_mcast_ip_1	4bytes
+Thu 15:43: INFO    : 	71	filter_mcast_ip_10	4bytes
+Thu 15:43: INFO    : 	75	filter_mcast_ip_11	4bytes
+Thu 15:43: INFO    : 	79	filter_mcast_ip_12	4bytes
+Thu 15:43: INFO    : 	7d	filter_mcast_ip_13	4bytes
+Thu 15:43: INFO    : 	81	filter_mcast_ip_14	4bytes
+Thu 15:43: INFO    : 	85	filter_mcast_ip_15	4bytes
+Thu 15:43: INFO    : 	89	filter_mcast_ip_2	4bytes
+Thu 15:43: INFO    : 	8d	filter_mcast_ip_3	4bytes
+Thu 15:43: INFO    : 	91	filter_mcast_ip_4	4bytes
+Thu 15:43: INFO    : 	95	filter_mcast_ip_5	4bytes
+Thu 15:43: INFO    : 	99	filter_mcast_ip_6	4bytes
+Thu 15:43: INFO    : 	9d	filter_mcast_ip_7	4bytes
+Thu 15:43: INFO    : 	a1	filter_mcast_ip_8	4bytes
+Thu 15:43: INFO    : 	a5	filter_mcast_ip_9	4bytes
+Thu 15:43: INFO    : 	a9	filter_src_ip_0	4bytes
+Thu 15:43: INFO    : 	ad	filter_src_ip_1	4bytes
+Thu 15:43: INFO    : 	b1	filter_src_ip_10	4bytes
+Thu 15:43: INFO    : 	b5	filter_src_ip_11	4bytes
+Thu 15:43: INFO    : 	b9	filter_src_ip_12	4bytes
+Thu 15:43: INFO    : 	bd	filter_src_ip_13	4bytes
+Thu 15:43: INFO    : 	c1	filter_src_ip_14	4bytes
+Thu 15:43: INFO    : 	c5	filter_src_ip_15	4bytes
+Thu 15:43: INFO    : 	c9	filter_src_ip_2	4bytes
+Thu 15:43: INFO    : 	cd	filter_src_ip_3	4bytes
+Thu 15:43: INFO    : 	d1	filter_src_ip_4	4bytes
+Thu 15:43: INFO    : 	d5	filter_src_ip_5	4bytes
+Thu 15:43: INFO    : 	d9	filter_src_ip_6	4bytes
+Thu 15:43: INFO    : 	dd	filter_src_ip_7	4bytes
+Thu 15:43: INFO    : 	e1	filter_src_ip_8	4bytes
+Thu 15:43: INFO    : 	e5	filter_src_ip_9	4bytes
+Thu 15:43: INFO    : 	e9	filter_src_port_0	2bytes
+Thu 15:43: INFO    : 	eb	filter_src_port_1	2bytes
+Thu 15:43: INFO    : 	ed	filter_src_port_10	2bytes
+Thu 15:43: INFO    : 	ef	filter_src_port_11	2bytes
+Thu 15:43: INFO    : 	f1	filter_src_port_12	2bytes
+Thu 15:43: INFO    : 	f3	filter_src_port_13	2bytes
+Thu 15:43: INFO    : 	f5	filter_src_port_14	2bytes
+Thu 15:43: INFO    : 	f7	filter_src_port_15	2bytes
+Thu 15:43: INFO    : 	f9	filter_src_port_2	2bytes
+Thu 15:43: INFO    : 	fb	filter_src_port_3	2bytes
+Thu 15:43: INFO    : 	fd	filter_src_port_4	2bytes
+Thu 15:43: INFO    : 	ff	filter_src_port_5	2bytes
+Thu 15:43: INFO    : 	101	filter_src_port_6	2bytes
+Thu 15:43: INFO    : 	103	filter_src_port_7	2bytes
+Thu 15:43: INFO    : 	105	filter_src_port_8	2bytes
+Thu 15:43: INFO    : 	107	filter_src_port_9	2bytes
+Thu 15:43: INFO    : 	109	filter_valid_0	1bytes
+Thu 15:43: INFO    : 	10a	filter_valid_1	1bytes
+Thu 15:43: INFO    : 	10b	filter_valid_10	1bytes
+Thu 15:43: INFO    : 	10c	filter_valid_11	1bytes
+Thu 15:43: INFO    : 	10d	filter_valid_12	1bytes
+Thu 15:43: INFO    : 	10e	filter_valid_13	1bytes
+Thu 15:43: INFO    : 	10f	filter_valid_14	1bytes
+Thu 15:43: INFO    : 	110	filter_valid_15	1bytes
+Thu 15:43: INFO    : 	111	filter_valid_2	1bytes
+Thu 15:43: INFO    : 	112	filter_valid_3	1bytes
+Thu 15:43: INFO    : 	113	filter_valid_4	1bytes
+Thu 15:43: INFO    : 	114	filter_valid_5	1bytes
+Thu 15:43: INFO    : 	115	filter_valid_6	1bytes
+Thu 15:43: INFO    : 	116	filter_valid_7	1bytes
+Thu 15:43: INFO    : 	117	filter_valid_8	1bytes
+Thu 15:43: INFO    : 	118	filter_valid_9	1bytes
+Thu 15:43: INFO    : 	119	self_ip	4bytes
+Thu 15:43: INFO    : 	11d	badFramesCounter	8bytes
+Thu 15:43: INFO    : 	125	badFramesCounter	8bytes
+Thu 15:43: INFO    : 	12d	eofCount	8bytes
+Thu 15:43: INFO    : 	135	sofCount	8bytes
+Thu 15:43: INFO    : 	13d	ifpga_ctrl	1bytes
+Thu 15:43: INFO    : 	13e	SFA_FORWARD_EN	4bytes
+Thu 15:43: INFO    : Mapped register chain length = 322
+Thu 15:43: INFO    : Mapped register efficiency = 0.92 (2361 / 2576 bits)
+Thu 15:43: INFO    : Mapped memory report:
+Thu 15:43: INFO    : 	Memory 'ch2_sfp1_udp_tx.routing_lookup_1' @ 4194304
+Thu 15:43: INFO    : 	Memory 'ch2_sfp1_udp_tx.routing_lookup_2' @ 4259840
+Thu 15:43: INFO    : 	Memory 'node1_ln108_WrapperNode.CH2_SFP1_MAC' @ 4325376
+Thu 15:43: INFO    : 	Memory 'ch2_sfp1_icmp_echo_server.params' @ 4390912
+Thu 15:43: INFO    : Running manager compiler graph-pass: GenerateMXGInfo
+Thu 15:43: INFO    : Running manager compiler graph-pass: GenerateSlicHostCode
+Thu 15:43: INFO    : Generating SLIC interface information
+Thu 15:43: INFO    : Generating SLIC code for interface 'default'
+Thu 15:43: INFO    : Skipping blacklisted scalar parameter 'FieldSwapKernel.current_run_cycle_count'
+Thu 15:43: INFO    : Generating XML description for Maxfile
+Thu 15:43: INFO    : Generating XML description for mode 'default'
+Thu 15:43: INFO    : Skipping blacklisted scalar parameter 'FieldSwapKernel.current_run_cycle_count'
+Thu 15:43: INFO    : Adding SLIC sections to the maxfile
+Thu 15:43: INFO    : Adding user files to the maxfile
+Thu 15:43: INFO    : Generating SLIC include file
+Thu 15:43: INFO    : Done generating SLIC interface information
+Thu 15:43: PROGRESS: Running back-end simulation build (3 phases)
+Thu 15:43: PROGRESS: (1/3) - Prepare MaxFile Data (GenerateMaxFileDataFile)
+Thu 15:43: INFO    : Build pass 'GenerateMaxFileDataFile' took 12.4129 ms.
+Thu 15:43: PROGRESS: (2/3) - Compile Simulation Modules (SimCompilePass)
+Thu 15:43: INFO    : Running command: make -j1
+Thu 15:43: INFO    : mkdir -p objdir
+Thu 15:43: INFO    : mkdir -p stdsimheader.h.gch
+Thu 15:43: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -c -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -O0 -DOPTIMIZATION_LEVEL=0 -x c++-header \
+Thu 15:43: INFO    : 		-o stdsimheader.h.gch/O0_stdsimheader.h.gch stdsimheader.h
+Thu 15:43: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -c -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -fno-implicit-templates -O2 -DOPTIMIZATION_LEVEL=2 -x c++-header \
+Thu 15:43: INFO    : 		-o stdsimheader.h.gch/NoTplInst_O2_stdsimheader.h.gch stdsimheader.h
+Thu 15:43: INFO    : make FieldSwap.so
+Thu 15:43: INFO    : make[1]: Entering directory `/home/demo/Desktop/MaxCompiler-Builds/FieldSwap_VECTIS_DFE_SIM/scratch/software-sim/build'
+Thu 15:43: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -c -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -o objdir/StateMachine_impl_K_FieldSwapKernel_outputSM_frameOut.o StateMachine_impl_K_FieldSwapKernel_outputSM_frameOut.cpp
+Thu 15:43: INFO    : (echo -n /opt/maxeler/maxcompiler ; cat StateMachine_impl_K_FieldSwapKernel_outputSM_frameOut.cpp) | md5sum | cut -f 1 -d " " > objdir/StateMachine_impl_K_FieldSwapKernel_outputSM_frameOut.md5
+Thu 15:43: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -MM -MP -MT objdir/StateMachine_impl_K_FieldSwapKernel_outputSM_frameOut.o \
+Thu 15:43: INFO    : 		StateMachine_impl_K_FieldSwapKernel_outputSM_frameOut.cpp > objdir/StateMachine_impl_K_FieldSwapKernel_outputSM_frameOut.d
+Thu 15:43: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -c -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -fno-implicit-templates -O2 -DOPTIMIZATION_LEVEL=2 -o objdir/FieldSwapKernel_exec0.NoTplInst.O2.o FieldSwapKernel_exec0.cpp
+Thu 15:43: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -MM -MP -MT objdir/FieldSwapKernel_exec0.NoTplInst.O2.o \
+Thu 15:43: INFO    : 		FieldSwapKernel_exec0.cpp > objdir/FieldSwapKernel_exec0.NoTplInst.O2.d
+Thu 15:43: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -c -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -O0 -DOPTIMIZATION_LEVEL=0 -o objdir/FieldSwapKernel.O0.o FieldSwapKernel.cpp
+Thu 15:43: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -MM -MP -MT objdir/FieldSwapKernel.O0.o \
+Thu 15:43: INFO    : 		FieldSwapKernel.cpp > objdir/FieldSwapKernel.O0.d
+Thu 15:43: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -c -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -O2 -DOPTIMIZATION_LEVEL=2 -o objdir/FieldSwapKernel_Templates.O2.o FieldSwapKernel_Templates.cpp
+Thu 15:43: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -MM -MP -MT objdir/FieldSwapKernel_Templates.O2.o \
+Thu 15:43: INFO    : 		FieldSwapKernel_Templates.cpp > objdir/FieldSwapKernel_Templates.O2.d
+Thu 15:43: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -c -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -o objdir/StateMachineManagerBlock_impl_network_mgmt_stream_to_host_rx_id_0.o StateMachineManagerBlock_impl_network_mgmt_stream_to_host_rx_id_0.cpp
+Thu 15:43: INFO    : (echo -n /opt/maxeler/maxcompiler ; cat StateMachineManagerBlock_impl_network_mgmt_stream_to_host_rx_id_0.cpp) | md5sum | cut -f 1 -d " " > objdir/StateMachineManagerBlock_impl_network_mgmt_stream_to_host_rx_id_0.md5
+Thu 15:43: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -MM -MP -MT objdir/StateMachineManagerBlock_impl_network_mgmt_stream_to_host_rx_id_0.o \
+Thu 15:43: INFO    : 		StateMachineManagerBlock_impl_network_mgmt_stream_to_host_rx_id_0.cpp > objdir/StateMachineManagerBlock_impl_network_mgmt_stream_to_host_rx_id_0.d
+Thu 15:43: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -c -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -o objdir/StateMachine_impl_M_network_mgmt_stream_to_host_rx_id_0.o StateMachine_impl_M_network_mgmt_stream_to_host_rx_id_0.cpp
+Thu 15:43: INFO    : (echo -n /opt/maxeler/maxcompiler ; cat StateMachine_impl_M_network_mgmt_stream_to_host_rx_id_0.cpp) | md5sum | cut -f 1 -d " " > objdir/StateMachine_impl_M_network_mgmt_stream_to_host_rx_id_0.md5
+Thu 15:43: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -MM -MP -MT objdir/StateMachine_impl_M_network_mgmt_stream_to_host_rx_id_0.o \
+Thu 15:43: INFO    : 		StateMachine_impl_M_network_mgmt_stream_to_host_rx_id_0.cpp > objdir/StateMachine_impl_M_network_mgmt_stream_to_host_rx_id_0.d
+Thu 15:43: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -c -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -o objdir/StateMachineManagerBlock_impl_SlicerFramer_network_mgmt_stream_from_host_tx_framed.o StateMachineManagerBlock_impl_SlicerFramer_network_mgmt_stream_from_host_tx_framed.cpp
+Thu 15:43: INFO    : (echo -n /opt/maxeler/maxcompiler ; cat StateMachineManagerBlock_impl_SlicerFramer_network_mgmt_stream_from_host_tx_framed.cpp) | md5sum | cut -f 1 -d " " > objdir/StateMachineManagerBlock_impl_SlicerFramer_network_mgmt_stream_from_host_tx_framed.md5
+Thu 15:43: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -MM -MP -MT objdir/StateMachineManagerBlock_impl_SlicerFramer_network_mgmt_stream_from_host_tx_framed.o \
+Thu 15:43: INFO    : 		StateMachineManagerBlock_impl_SlicerFramer_network_mgmt_stream_from_host_tx_framed.cpp > objdir/StateMachineManagerBlock_impl_SlicerFramer_network_mgmt_stream_from_host_tx_framed.d
+Thu 15:43: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -c -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -o objdir/StateMachine_impl_M_SlicerFramer_network_mgmt_stream_from_host_tx_framed.o StateMachine_impl_M_SlicerFramer_network_mgmt_stream_from_host_tx_framed.cpp
+Thu 15:43: INFO    : (echo -n /opt/maxeler/maxcompiler ; cat StateMachine_impl_M_SlicerFramer_network_mgmt_stream_from_host_tx_framed.cpp) | md5sum | cut -f 1 -d " " > objdir/StateMachine_impl_M_SlicerFramer_network_mgmt_stream_from_host_tx_framed.md5
+Thu 15:43: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -MM -MP -MT objdir/StateMachine_impl_M_SlicerFramer_network_mgmt_stream_from_host_tx_framed.o \
+Thu 15:43: INFO    : 		StateMachine_impl_M_SlicerFramer_network_mgmt_stream_from_host_tx_framed.cpp > objdir/StateMachine_impl_M_SlicerFramer_network_mgmt_stream_from_host_tx_framed.d
+Thu 15:43: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -c -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -o objdir/StateMachineManagerBlock_impl_ch2_sfp1_udp_tx.o StateMachineManagerBlock_impl_ch2_sfp1_udp_tx.cpp
+Thu 15:44: INFO    : (echo -n /opt/maxeler/maxcompiler ; cat StateMachineManagerBlock_impl_ch2_sfp1_udp_tx.cpp) | md5sum | cut -f 1 -d " " > objdir/StateMachineManagerBlock_impl_ch2_sfp1_udp_tx.md5
+Thu 15:44: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -MM -MP -MT objdir/StateMachineManagerBlock_impl_ch2_sfp1_udp_tx.o \
+Thu 15:44: INFO    : 		StateMachineManagerBlock_impl_ch2_sfp1_udp_tx.cpp > objdir/StateMachineManagerBlock_impl_ch2_sfp1_udp_tx.d
+Thu 15:44: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -c -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -o objdir/StateMachine_impl_M_ch2_sfp1_udp_tx.o StateMachine_impl_M_ch2_sfp1_udp_tx.cpp
+Thu 15:44: INFO    : (echo -n /opt/maxeler/maxcompiler ; cat StateMachine_impl_M_ch2_sfp1_udp_tx.cpp) | md5sum | cut -f 1 -d " " > objdir/StateMachine_impl_M_ch2_sfp1_udp_tx.md5
+Thu 15:44: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -MM -MP -MT objdir/StateMachine_impl_M_ch2_sfp1_udp_tx.o \
+Thu 15:44: INFO    : 		StateMachine_impl_M_ch2_sfp1_udp_tx.cpp > objdir/StateMachine_impl_M_ch2_sfp1_udp_tx.d
+Thu 15:44: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -c -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -o objdir/StateMachineManagerBlock_impl_network_mgmt_stream_from_host_tx_demux.o StateMachineManagerBlock_impl_network_mgmt_stream_from_host_tx_demux.cpp
+Thu 15:44: INFO    : (echo -n /opt/maxeler/maxcompiler ; cat StateMachineManagerBlock_impl_network_mgmt_stream_from_host_tx_demux.cpp) | md5sum | cut -f 1 -d " " > objdir/StateMachineManagerBlock_impl_network_mgmt_stream_from_host_tx_demux.md5
+Thu 15:44: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -MM -MP -MT objdir/StateMachineManagerBlock_impl_network_mgmt_stream_from_host_tx_demux.o \
+Thu 15:44: INFO    : 		StateMachineManagerBlock_impl_network_mgmt_stream_from_host_tx_demux.cpp > objdir/StateMachineManagerBlock_impl_network_mgmt_stream_from_host_tx_demux.d
+Thu 15:44: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -c -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -o objdir/StateMachine_impl_M_network_mgmt_stream_from_host_tx_demux.o StateMachine_impl_M_network_mgmt_stream_from_host_tx_demux.cpp
+Thu 15:44: INFO    : (echo -n /opt/maxeler/maxcompiler ; cat StateMachine_impl_M_network_mgmt_stream_from_host_tx_demux.cpp) | md5sum | cut -f 1 -d " " > objdir/StateMachine_impl_M_network_mgmt_stream_from_host_tx_demux.md5
+Thu 15:44: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -MM -MP -MT objdir/StateMachine_impl_M_network_mgmt_stream_from_host_tx_demux.o \
+Thu 15:44: INFO    : 		StateMachine_impl_M_network_mgmt_stream_from_host_tx_demux.cpp > objdir/StateMachine_impl_M_network_mgmt_stream_from_host_tx_demux.d
+Thu 15:44: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -c -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -o objdir/StateMachineManagerBlock_impl_ch2_sfp1_eth_tx_from_host_rem_conv.o StateMachineManagerBlock_impl_ch2_sfp1_eth_tx_from_host_rem_conv.cpp
+Thu 15:44: INFO    : (echo -n /opt/maxeler/maxcompiler ; cat StateMachineManagerBlock_impl_ch2_sfp1_eth_tx_from_host_rem_conv.cpp) | md5sum | cut -f 1 -d " " > objdir/StateMachineManagerBlock_impl_ch2_sfp1_eth_tx_from_host_rem_conv.md5
+Thu 15:44: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -MM -MP -MT objdir/StateMachineManagerBlock_impl_ch2_sfp1_eth_tx_from_host_rem_conv.o \
+Thu 15:44: INFO    : 		StateMachineManagerBlock_impl_ch2_sfp1_eth_tx_from_host_rem_conv.cpp > objdir/StateMachineManagerBlock_impl_ch2_sfp1_eth_tx_from_host_rem_conv.d
+Thu 15:44: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -c -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -o objdir/StateMachine_impl_M_ch2_sfp1_eth_tx_from_host_rem_conv.o StateMachine_impl_M_ch2_sfp1_eth_tx_from_host_rem_conv.cpp
+Thu 15:44: INFO    : (echo -n /opt/maxeler/maxcompiler ; cat StateMachine_impl_M_ch2_sfp1_eth_tx_from_host_rem_conv.cpp) | md5sum | cut -f 1 -d " " > objdir/StateMachine_impl_M_ch2_sfp1_eth_tx_from_host_rem_conv.md5
+Thu 15:44: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -MM -MP -MT objdir/StateMachine_impl_M_ch2_sfp1_eth_tx_from_host_rem_conv.o \
+Thu 15:44: INFO    : 		StateMachine_impl_M_ch2_sfp1_eth_tx_from_host_rem_conv.cpp > objdir/StateMachine_impl_M_ch2_sfp1_eth_tx_from_host_rem_conv.d
+Thu 15:44: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -c -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -o objdir/StateMachineManagerBlock_impl_ch2_sfp1_eth_tx_PacketMux.o StateMachineManagerBlock_impl_ch2_sfp1_eth_tx_PacketMux.cpp
+Thu 15:44: INFO    : (echo -n /opt/maxeler/maxcompiler ; cat StateMachineManagerBlock_impl_ch2_sfp1_eth_tx_PacketMux.cpp) | md5sum | cut -f 1 -d " " > objdir/StateMachineManagerBlock_impl_ch2_sfp1_eth_tx_PacketMux.md5
+Thu 15:44: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -MM -MP -MT objdir/StateMachineManagerBlock_impl_ch2_sfp1_eth_tx_PacketMux.o \
+Thu 15:44: INFO    : 		StateMachineManagerBlock_impl_ch2_sfp1_eth_tx_PacketMux.cpp > objdir/StateMachineManagerBlock_impl_ch2_sfp1_eth_tx_PacketMux.d
+Thu 15:44: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -c -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -o objdir/StateMachine_impl_M_ch2_sfp1_eth_tx_PacketMux.o StateMachine_impl_M_ch2_sfp1_eth_tx_PacketMux.cpp
+Thu 15:44: INFO    : (echo -n /opt/maxeler/maxcompiler ; cat StateMachine_impl_M_ch2_sfp1_eth_tx_PacketMux.cpp) | md5sum | cut -f 1 -d " " > objdir/StateMachine_impl_M_ch2_sfp1_eth_tx_PacketMux.md5
+Thu 15:44: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -MM -MP -MT objdir/StateMachine_impl_M_ch2_sfp1_eth_tx_PacketMux.o \
+Thu 15:44: INFO    : 		StateMachine_impl_M_ch2_sfp1_eth_tx_PacketMux.cpp > objdir/StateMachine_impl_M_ch2_sfp1_eth_tx_PacketMux.d
+Thu 15:44: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -c -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -o objdir/StateMachineManagerBlock_impl_ch2_sfp1_eth_rx_fanout.o StateMachineManagerBlock_impl_ch2_sfp1_eth_rx_fanout.cpp
+Thu 15:44: INFO    : (echo -n /opt/maxeler/maxcompiler ; cat StateMachineManagerBlock_impl_ch2_sfp1_eth_rx_fanout.cpp) | md5sum | cut -f 1 -d " " > objdir/StateMachineManagerBlock_impl_ch2_sfp1_eth_rx_fanout.md5
+Thu 15:44: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -MM -MP -MT objdir/StateMachineManagerBlock_impl_ch2_sfp1_eth_rx_fanout.o \
+Thu 15:44: INFO    : 		StateMachineManagerBlock_impl_ch2_sfp1_eth_rx_fanout.cpp > objdir/StateMachineManagerBlock_impl_ch2_sfp1_eth_rx_fanout.d
+Thu 15:44: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -c -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -o objdir/StateMachine_impl_M_ch2_sfp1_eth_rx_fanout.o StateMachine_impl_M_ch2_sfp1_eth_rx_fanout.cpp
+Thu 15:44: INFO    : (echo -n /opt/maxeler/maxcompiler ; cat StateMachine_impl_M_ch2_sfp1_eth_rx_fanout.cpp) | md5sum | cut -f 1 -d " " > objdir/StateMachine_impl_M_ch2_sfp1_eth_rx_fanout.md5
+Thu 15:44: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -MM -MP -MT objdir/StateMachine_impl_M_ch2_sfp1_eth_rx_fanout.o \
+Thu 15:44: INFO    : 		StateMachine_impl_M_ch2_sfp1_eth_rx_fanout.cpp > objdir/StateMachine_impl_M_ch2_sfp1_eth_rx_fanout.d
+Thu 15:44: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -c -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -o objdir/StateMachineManagerBlock_impl_ch2_sfp1_eth_rx_to_host_filter.o StateMachineManagerBlock_impl_ch2_sfp1_eth_rx_to_host_filter.cpp
+Thu 15:44: INFO    : (echo -n /opt/maxeler/maxcompiler ; cat StateMachineManagerBlock_impl_ch2_sfp1_eth_rx_to_host_filter.cpp) | md5sum | cut -f 1 -d " " > objdir/StateMachineManagerBlock_impl_ch2_sfp1_eth_rx_to_host_filter.md5
+Thu 15:44: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -MM -MP -MT objdir/StateMachineManagerBlock_impl_ch2_sfp1_eth_rx_to_host_filter.o \
+Thu 15:44: INFO    : 		StateMachineManagerBlock_impl_ch2_sfp1_eth_rx_to_host_filter.cpp > objdir/StateMachineManagerBlock_impl_ch2_sfp1_eth_rx_to_host_filter.d
+Thu 15:44: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -c -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -o objdir/StateMachine_impl_M_ch2_sfp1_eth_rx_to_host_filter.o StateMachine_impl_M_ch2_sfp1_eth_rx_to_host_filter.cpp
+Thu 15:44: INFO    : (echo -n /opt/maxeler/maxcompiler ; cat StateMachine_impl_M_ch2_sfp1_eth_rx_to_host_filter.cpp) | md5sum | cut -f 1 -d " " > objdir/StateMachine_impl_M_ch2_sfp1_eth_rx_to_host_filter.md5
+Thu 15:44: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -MM -MP -MT objdir/StateMachine_impl_M_ch2_sfp1_eth_rx_to_host_filter.o \
+Thu 15:44: INFO    : 		StateMachine_impl_M_ch2_sfp1_eth_rx_to_host_filter.cpp > objdir/StateMachine_impl_M_ch2_sfp1_eth_rx_to_host_filter.d
+Thu 15:44: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -c -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -o objdir/StateMachineManagerBlock_impl_ch2_sfp1_arp_server.o StateMachineManagerBlock_impl_ch2_sfp1_arp_server.cpp
+Thu 15:44: INFO    : (echo -n /opt/maxeler/maxcompiler ; cat StateMachineManagerBlock_impl_ch2_sfp1_arp_server.cpp) | md5sum | cut -f 1 -d " " > objdir/StateMachineManagerBlock_impl_ch2_sfp1_arp_server.md5
+Thu 15:44: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -MM -MP -MT objdir/StateMachineManagerBlock_impl_ch2_sfp1_arp_server.o \
+Thu 15:44: INFO    : 		StateMachineManagerBlock_impl_ch2_sfp1_arp_server.cpp > objdir/StateMachineManagerBlock_impl_ch2_sfp1_arp_server.d
+Thu 15:44: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -c -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -o objdir/StateMachine_impl_M_ch2_sfp1_arp_server.o StateMachine_impl_M_ch2_sfp1_arp_server.cpp
+Thu 15:44: INFO    : (echo -n /opt/maxeler/maxcompiler ; cat StateMachine_impl_M_ch2_sfp1_arp_server.cpp) | md5sum | cut -f 1 -d " " > objdir/StateMachine_impl_M_ch2_sfp1_arp_server.md5
+Thu 15:44: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -MM -MP -MT objdir/StateMachine_impl_M_ch2_sfp1_arp_server.o \
+Thu 15:44: INFO    : 		StateMachine_impl_M_ch2_sfp1_arp_server.cpp > objdir/StateMachine_impl_M_ch2_sfp1_arp_server.d
+Thu 15:44: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -c -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -o objdir/StateMachineManagerBlock_impl_ch2_sfp1_icmp_echo_server.o StateMachineManagerBlock_impl_ch2_sfp1_icmp_echo_server.cpp
+Thu 15:44: INFO    : (echo -n /opt/maxeler/maxcompiler ; cat StateMachineManagerBlock_impl_ch2_sfp1_icmp_echo_server.cpp) | md5sum | cut -f 1 -d " " > objdir/StateMachineManagerBlock_impl_ch2_sfp1_icmp_echo_server.md5
+Thu 15:44: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -MM -MP -MT objdir/StateMachineManagerBlock_impl_ch2_sfp1_icmp_echo_server.o \
+Thu 15:44: INFO    : 		StateMachineManagerBlock_impl_ch2_sfp1_icmp_echo_server.cpp > objdir/StateMachineManagerBlock_impl_ch2_sfp1_icmp_echo_server.d
+Thu 15:44: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -c -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -o objdir/StateMachine_impl_M_ch2_sfp1_icmp_echo_server.o StateMachine_impl_M_ch2_sfp1_icmp_echo_server.cpp
+Thu 15:44: INFO    : (echo -n /opt/maxeler/maxcompiler ; cat StateMachine_impl_M_ch2_sfp1_icmp_echo_server.cpp) | md5sum | cut -f 1 -d " " > objdir/StateMachine_impl_M_ch2_sfp1_icmp_echo_server.md5
+Thu 15:44: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -MM -MP -MT objdir/StateMachine_impl_M_ch2_sfp1_icmp_echo_server.o \
+Thu 15:44: INFO    : 		StateMachine_impl_M_ch2_sfp1_icmp_echo_server.cpp > objdir/StateMachine_impl_M_ch2_sfp1_icmp_echo_server.d
+Thu 15:44: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -c -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -o objdir/StateMachineManagerBlock_impl_ch2_sfp1_udp_rx.o StateMachineManagerBlock_impl_ch2_sfp1_udp_rx.cpp
+Thu 15:44: INFO    : (echo -n /opt/maxeler/maxcompiler ; cat StateMachineManagerBlock_impl_ch2_sfp1_udp_rx.cpp) | md5sum | cut -f 1 -d " " > objdir/StateMachineManagerBlock_impl_ch2_sfp1_udp_rx.md5
+Thu 15:44: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -MM -MP -MT objdir/StateMachineManagerBlock_impl_ch2_sfp1_udp_rx.o \
+Thu 15:44: INFO    : 		StateMachineManagerBlock_impl_ch2_sfp1_udp_rx.cpp > objdir/StateMachineManagerBlock_impl_ch2_sfp1_udp_rx.d
+Thu 15:44: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -c -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -o objdir/StateMachine_impl_M_ch2_sfp1_udp_rx.o StateMachine_impl_M_ch2_sfp1_udp_rx.cpp
+Thu 15:44: INFO    : (echo -n /opt/maxeler/maxcompiler ; cat StateMachine_impl_M_ch2_sfp1_udp_rx.cpp) | md5sum | cut -f 1 -d " " > objdir/StateMachine_impl_M_ch2_sfp1_udp_rx.md5
+Thu 15:44: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -MM -MP -MT objdir/StateMachine_impl_M_ch2_sfp1_udp_rx.o \
+Thu 15:44: INFO    : 		StateMachine_impl_M_ch2_sfp1_udp_rx.cpp > objdir/StateMachine_impl_M_ch2_sfp1_udp_rx.d
+Thu 15:44: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -c -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -o objdir/StateMachineManagerBlock_impl_ch2_sfp1_eth_rx_to_host_drop.o StateMachineManagerBlock_impl_ch2_sfp1_eth_rx_to_host_drop.cpp
+Thu 15:44: INFO    : (echo -n /opt/maxeler/maxcompiler ; cat StateMachineManagerBlock_impl_ch2_sfp1_eth_rx_to_host_drop.cpp) | md5sum | cut -f 1 -d " " > objdir/StateMachineManagerBlock_impl_ch2_sfp1_eth_rx_to_host_drop.md5
+Thu 15:44: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -MM -MP -MT objdir/StateMachineManagerBlock_impl_ch2_sfp1_eth_rx_to_host_drop.o \
+Thu 15:44: INFO    : 		StateMachineManagerBlock_impl_ch2_sfp1_eth_rx_to_host_drop.cpp > objdir/StateMachineManagerBlock_impl_ch2_sfp1_eth_rx_to_host_drop.d
+Thu 15:44: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -c -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -o objdir/StateMachine_impl_M_ch2_sfp1_eth_rx_to_host_drop.o StateMachine_impl_M_ch2_sfp1_eth_rx_to_host_drop.cpp
+Thu 15:44: INFO    : (echo -n /opt/maxeler/maxcompiler ; cat StateMachine_impl_M_ch2_sfp1_eth_rx_to_host_drop.cpp) | md5sum | cut -f 1 -d " " > objdir/StateMachine_impl_M_ch2_sfp1_eth_rx_to_host_drop.md5
+Thu 15:44: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -MM -MP -MT objdir/StateMachine_impl_M_ch2_sfp1_eth_rx_to_host_drop.o \
+Thu 15:44: INFO    : 		StateMachine_impl_M_ch2_sfp1_eth_rx_to_host_drop.cpp > objdir/StateMachine_impl_M_ch2_sfp1_eth_rx_to_host_drop.d
+Thu 15:44: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -c -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -o objdir/StateMachineManagerBlock_impl_ch2_sfp1_udp_rx_EOFEFrameDrop.o StateMachineManagerBlock_impl_ch2_sfp1_udp_rx_EOFEFrameDrop.cpp
+Thu 15:44: INFO    : (echo -n /opt/maxeler/maxcompiler ; cat StateMachineManagerBlock_impl_ch2_sfp1_udp_rx_EOFEFrameDrop.cpp) | md5sum | cut -f 1 -d " " > objdir/StateMachineManagerBlock_impl_ch2_sfp1_udp_rx_EOFEFrameDrop.md5
+Thu 15:44: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -MM -MP -MT objdir/StateMachineManagerBlock_impl_ch2_sfp1_udp_rx_EOFEFrameDrop.o \
+Thu 15:44: INFO    : 		StateMachineManagerBlock_impl_ch2_sfp1_udp_rx_EOFEFrameDrop.cpp > objdir/StateMachineManagerBlock_impl_ch2_sfp1_udp_rx_EOFEFrameDrop.d
+Thu 15:44: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -c -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -o objdir/StateMachine_impl_M_ch2_sfp1_udp_rx_EOFEFrameDrop.o StateMachine_impl_M_ch2_sfp1_udp_rx_EOFEFrameDrop.cpp
+Thu 15:45: INFO    : (echo -n /opt/maxeler/maxcompiler ; cat StateMachine_impl_M_ch2_sfp1_udp_rx_EOFEFrameDrop.cpp) | md5sum | cut -f 1 -d " " > objdir/StateMachine_impl_M_ch2_sfp1_udp_rx_EOFEFrameDrop.md5
+Thu 15:45: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -MM -MP -MT objdir/StateMachine_impl_M_ch2_sfp1_udp_rx_EOFEFrameDrop.o \
+Thu 15:45: INFO    : 		StateMachine_impl_M_ch2_sfp1_udp_rx_EOFEFrameDrop.cpp > objdir/StateMachine_impl_M_ch2_sfp1_udp_rx_EOFEFrameDrop.d
+Thu 15:45: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -c -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -o objdir/StateMachineManagerBlock_impl_network_mgmt_stream_to_host_rx_prefix_0.o StateMachineManagerBlock_impl_network_mgmt_stream_to_host_rx_prefix_0.cpp
+Thu 15:45: INFO    : (echo -n /opt/maxeler/maxcompiler ; cat StateMachineManagerBlock_impl_network_mgmt_stream_to_host_rx_prefix_0.cpp) | md5sum | cut -f 1 -d " " > objdir/StateMachineManagerBlock_impl_network_mgmt_stream_to_host_rx_prefix_0.md5
+Thu 15:45: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -MM -MP -MT objdir/StateMachineManagerBlock_impl_network_mgmt_stream_to_host_rx_prefix_0.o \
+Thu 15:45: INFO    : 		StateMachineManagerBlock_impl_network_mgmt_stream_to_host_rx_prefix_0.cpp > objdir/StateMachineManagerBlock_impl_network_mgmt_stream_to_host_rx_prefix_0.d
+Thu 15:45: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -c -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -o objdir/StateMachine_impl_M_network_mgmt_stream_to_host_rx_prefix_0.o StateMachine_impl_M_network_mgmt_stream_to_host_rx_prefix_0.cpp
+Thu 15:45: INFO    : (echo -n /opt/maxeler/maxcompiler ; cat StateMachine_impl_M_network_mgmt_stream_to_host_rx_prefix_0.cpp) | md5sum | cut -f 1 -d " " > objdir/StateMachine_impl_M_network_mgmt_stream_to_host_rx_prefix_0.md5
+Thu 15:45: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -MM -MP -MT objdir/StateMachine_impl_M_network_mgmt_stream_to_host_rx_prefix_0.o \
+Thu 15:45: INFO    : 		StateMachine_impl_M_network_mgmt_stream_to_host_rx_prefix_0.cpp > objdir/StateMachine_impl_M_network_mgmt_stream_to_host_rx_prefix_0.d
+Thu 15:45: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -c -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -o objdir/StateMachineManagerBlock_impl_network_mgmt_stream_to_host_rx_framed_FramedStreamPreprocessor.o StateMachineManagerBlock_impl_network_mgmt_stream_to_host_rx_framed_FramedStreamPreprocessor.cpp
+Thu 15:45: INFO    : (echo -n /opt/maxeler/maxcompiler ; cat StateMachineManagerBlock_impl_network_mgmt_stream_to_host_rx_framed_FramedStreamPreprocessor.cpp) | md5sum | cut -f 1 -d " " > objdir/StateMachineManagerBlock_impl_network_mgmt_stream_to_host_rx_framed_FramedStreamPreprocessor.md5
+Thu 15:45: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -MM -MP -MT objdir/StateMachineManagerBlock_impl_network_mgmt_stream_to_host_rx_framed_FramedStreamPreprocessor.o \
+Thu 15:45: INFO    : 		StateMachineManagerBlock_impl_network_mgmt_stream_to_host_rx_framed_FramedStreamPreprocessor.cpp > objdir/StateMachineManagerBlock_impl_network_mgmt_stream_to_host_rx_framed_FramedStreamPreprocessor.d
+Thu 15:45: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -c -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -o objdir/StateMachine_impl_M_network_mgmt_stream_to_host_rx_framed_FramedStreamPreprocessor.o StateMachine_impl_M_network_mgmt_stream_to_host_rx_framed_FramedStreamPreprocessor.cpp
+Thu 15:45: INFO    : (echo -n /opt/maxeler/maxcompiler ; cat StateMachine_impl_M_network_mgmt_stream_to_host_rx_framed_FramedStreamPreprocessor.cpp) | md5sum | cut -f 1 -d " " > objdir/StateMachine_impl_M_network_mgmt_stream_to_host_rx_framed_FramedStreamPreprocessor.md5
+Thu 15:45: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -MM -MP -MT objdir/StateMachine_impl_M_network_mgmt_stream_to_host_rx_framed_FramedStreamPreprocessor.o \
+Thu 15:45: INFO    : 		StateMachine_impl_M_network_mgmt_stream_to_host_rx_framed_FramedStreamPreprocessor.cpp > objdir/StateMachine_impl_M_network_mgmt_stream_to_host_rx_framed_FramedStreamPreprocessor.d
+Thu 15:45: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -c -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -o objdir/StateMachineManagerBlock_impl_dualAspectPush_network_mgmt_stream_to_host_rx_framed.o StateMachineManagerBlock_impl_dualAspectPush_network_mgmt_stream_to_host_rx_framed.cpp
+Thu 15:45: INFO    : (echo -n /opt/maxeler/maxcompiler ; cat StateMachineManagerBlock_impl_dualAspectPush_network_mgmt_stream_to_host_rx_framed.cpp) | md5sum | cut -f 1 -d " " > objdir/StateMachineManagerBlock_impl_dualAspectPush_network_mgmt_stream_to_host_rx_framed.md5
+Thu 15:45: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -MM -MP -MT objdir/StateMachineManagerBlock_impl_dualAspectPush_network_mgmt_stream_to_host_rx_framed.o \
+Thu 15:45: INFO    : 		StateMachineManagerBlock_impl_dualAspectPush_network_mgmt_stream_to_host_rx_framed.cpp > objdir/StateMachineManagerBlock_impl_dualAspectPush_network_mgmt_stream_to_host_rx_framed.d
+Thu 15:45: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -c -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -o objdir/StateMachine_impl_M_dualAspectPush_network_mgmt_stream_to_host_rx_framed.o StateMachine_impl_M_dualAspectPush_network_mgmt_stream_to_host_rx_framed.cpp
+Thu 15:45: INFO    : (echo -n /opt/maxeler/maxcompiler ; cat StateMachine_impl_M_dualAspectPush_network_mgmt_stream_to_host_rx_framed.cpp) | md5sum | cut -f 1 -d " " > objdir/StateMachine_impl_M_dualAspectPush_network_mgmt_stream_to_host_rx_framed.md5
+Thu 15:45: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -MM -MP -MT objdir/StateMachine_impl_M_dualAspectPush_network_mgmt_stream_to_host_rx_framed.o \
+Thu 15:45: INFO    : 		StateMachine_impl_M_dualAspectPush_network_mgmt_stream_to_host_rx_framed.cpp > objdir/StateMachine_impl_M_dualAspectPush_network_mgmt_stream_to_host_rx_framed.d
+Thu 15:45: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -c -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -o objdir/StateMachineManagerBlock_impl_network_mgmt_stream_to_host_rx_framed_FramedStreamAligner.o StateMachineManagerBlock_impl_network_mgmt_stream_to_host_rx_framed_FramedStreamAligner.cpp
+Thu 15:45: INFO    : (echo -n /opt/maxeler/maxcompiler ; cat StateMachineManagerBlock_impl_network_mgmt_stream_to_host_rx_framed_FramedStreamAligner.cpp) | md5sum | cut -f 1 -d " " > objdir/StateMachineManagerBlock_impl_network_mgmt_stream_to_host_rx_framed_FramedStreamAligner.md5
+Thu 15:45: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -MM -MP -MT objdir/StateMachineManagerBlock_impl_network_mgmt_stream_to_host_rx_framed_FramedStreamAligner.o \
+Thu 15:45: INFO    : 		StateMachineManagerBlock_impl_network_mgmt_stream_to_host_rx_framed_FramedStreamAligner.cpp > objdir/StateMachineManagerBlock_impl_network_mgmt_stream_to_host_rx_framed_FramedStreamAligner.d
+Thu 15:45: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -c -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -o objdir/StateMachine_impl_M_network_mgmt_stream_to_host_rx_framed_FramedStreamAligner.o StateMachine_impl_M_network_mgmt_stream_to_host_rx_framed_FramedStreamAligner.cpp
+Thu 15:45: INFO    : (echo -n /opt/maxeler/maxcompiler ; cat StateMachine_impl_M_network_mgmt_stream_to_host_rx_framed_FramedStreamAligner.cpp) | md5sum | cut -f 1 -d " " > objdir/StateMachine_impl_M_network_mgmt_stream_to_host_rx_framed_FramedStreamAligner.md5
+Thu 15:45: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -MM -MP -MT objdir/StateMachine_impl_M_network_mgmt_stream_to_host_rx_framed_FramedStreamAligner.o \
+Thu 15:45: INFO    : 		StateMachine_impl_M_network_mgmt_stream_to_host_rx_framed_FramedStreamAligner.cpp > objdir/StateMachine_impl_M_network_mgmt_stream_to_host_rx_framed_FramedStreamAligner.d
+Thu 15:45: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -c -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -O0 -DOPTIMIZATION_LEVEL=0 -o objdir/max_msi.O0.o max_msi.cpp
+Thu 15:45: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -MM -MP -MT objdir/max_msi.O0.o \
+Thu 15:45: INFO    : 		max_msi.cpp > objdir/max_msi.O0.d
+Thu 15:45: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -fPIC -shared -B/usr/lib/x86_64-linux-gnu -L/opt/maxeler/maxcompiler/lib/boost/lib -lboost_thread -lboost_system -lboost_filesystem -lrt -pthread -O2 -s  -o FieldSwap.so objdir/StateMachine_impl_K_FieldSwapKernel_outputSM_frameOut.o objdir/FieldSwapKernel_exec0.NoTplInst.O2.o objdir/FieldSwapKernel.O0.o objdir/FieldSwapKernel_Templates.O2.o objdir/StateMachineManagerBlock_impl_network_mgmt_stream_to_host_rx_id_0.o objdir/StateMachine_impl_M_network_mgmt_stream_to_host_rx_id_0.o objdir/StateMachineManagerBlock_impl_SlicerFramer_network_mgmt_stream_from_host_tx_framed.o objdir/StateMachine_impl_M_SlicerFramer_network_mgmt_stream_from_host_tx_framed.o objdir/StateMachineManagerBlock_impl_ch2_sfp1_udp_tx.o objdir/StateMachine_impl_M_ch2_sfp1_udp_tx.o objdir/StateMachineManagerBlock_impl_network_mgmt_stream_from_host_tx_demux.o objdir/StateMachine_impl_M_network_mgmt_stream_from_host_tx_demux.o objdir/StateMachineManagerBlock_impl_ch2_sfp1_eth_tx_from_host_rem_conv.o objdir/StateMachine_impl_M_ch2_sfp1_eth_tx_from_host_rem_conv.o objdir/StateMachineManagerBlock_impl_ch2_sfp1_eth_tx_PacketMux.o objdir/StateMachine_impl_M_ch2_sfp1_eth_tx_PacketMux.o objdir/StateMachineManagerBlock_impl_ch2_sfp1_eth_rx_fanout.o objdir/StateMachine_impl_M_ch2_sfp1_eth_rx_fanout.o objdir/StateMachineManagerBlock_impl_ch2_sfp1_eth_rx_to_host_filter.o objdir/StateMachine_impl_M_ch2_sfp1_eth_rx_to_host_filter.o objdir/StateMachineManagerBlock_impl_ch2_sfp1_arp_server.o objdir/StateMachine_impl_M_ch2_sfp1_arp_server.o objdir/StateMachineManagerBlock_impl_ch2_sfp1_icmp_echo_server.o objdir/StateMachine_impl_M_ch2_sfp1_icmp_echo_server.o objdir/StateMachineManagerBlock_impl_ch2_sfp1_udp_rx.o objdir/StateMachine_impl_M_ch2_sfp1_udp_rx.o objdir/StateMachineManagerBlock_impl_ch2_sfp1_eth_rx_to_host_drop.o objdir/StateMachine_impl_M_ch2_sfp1_eth_rx_to_host_drop.o objdir/StateMachineManagerBlock_impl_ch2_sfp1_udp_rx_EOFEFrameDrop.o objdir/StateMachine_impl_M_ch2_sfp1_udp_rx_EOFEFrameDrop.o objdir/StateMachineManagerBlock_impl_network_mgmt_stream_to_host_rx_prefix_0.o objdir/StateMachine_impl_M_network_mgmt_stream_to_host_rx_prefix_0.o objdir/StateMachineManagerBlock_impl_network_mgmt_stream_to_host_rx_framed_FramedStreamPreprocessor.o objdir/StateMachine_impl_M_network_mgmt_stream_to_host_rx_framed_FramedStreamPreprocessor.o objdir/StateMachineManagerBlock_impl_dualAspectPush_network_mgmt_stream_to_host_rx_framed.o objdir/StateMachine_impl_M_dualAspectPush_network_mgmt_stream_to_host_rx_framed.o objdir/StateMachineManagerBlock_impl_network_mgmt_stream_to_host_rx_framed_FramedStreamAligner.o objdir/StateMachine_impl_M_network_mgmt_stream_to_host_rx_framed_FramedStreamAligner.o objdir/max_msi.O0.o StructToGroupDummy.o Mux.o DualAspectMux.o Demux.o Fanout.o CapRegs.o IFPGARegs.o ChecksumMem.o PCIe.o KernelManagerBlockSync.o DualAspectReg.o PullPushAdapter.o FilePullSource.o max_shared_fifo.o SharedFIFO.o Fifos.o FilePushSink.o SimTerminator.o Watch.o StreamStatus.o RunLengthExpander.o ManagerBlock.o MappedElements.o ManagerSync.o PullSync.o PushSync.o DynamicVarUInt.o SimException.o DebugStreams.o AddressGenerator.o MemoryControllerPro.o MemoryControllerRAM.o MemoryControllerCommand.o MemoryControllerStreams.o MemoryControllerConfig.o TCP.o Ethernet.o Timestamp.o /opt/maxeler/maxcompiler/lib/lwip_sim/lib/liblwip.a
+Thu 15:45: INFO    : make[1]: Leaving directory `/home/demo/Desktop/MaxCompiler-Builds/FieldSwap_VECTIS_DFE_SIM/scratch/software-sim/build'
+Thu 15:45: INFO    : Build pass 'SimCompilePass' took 114.319 s.
+Thu 15:45: PROGRESS: (3/3) - Generate MaxFile (AddSimObjectToMaxFilePass)
+Thu 15:45: INFO    : Build pass 'AddSimObjectToMaxFilePass' took 561.497 ms.
+Thu 15:45: INFO    : Final result files after build: 
+Thu 15:45: INFO    : Running command: ln -sf "../scratch/FieldSwap-FieldSwapKernel-original.pxg"
+Thu 15:45: INFO    : FieldSwap-FieldSwapKernel-original.pxg (BuildFilePXG)
+Thu 15:45: INFO    : Running command: ln -sf "../scratch/FieldSwapKernel_Configuration.txt"
+Thu 15:45: INFO    : FieldSwapKernel_Configuration.txt (BuildFile)
+Thu 15:45: INFO    : Running command: ln -sf "../scratch/FieldSwapKernel_NodeDiary.txt"
+Thu 15:45: INFO    : FieldSwapKernel_NodeDiary.txt (BuildFile)
+Thu 15:45: INFO    : Running command: ln -sf "../scratch/FieldSwap-FieldSwapKernel-final-simulation.pxg"
+Thu 15:45: INFO    : FieldSwap-FieldSwapKernel-final-simulation.pxg (BuildFilePXG)
+Thu 15:45: INFO    : Running command: ln -sf "../scratch/FieldSwap.xml"
+Thu 15:45: INFO    : FieldSwap.xml (BuildFile)
+Thu 15:45: INFO    : Running command: ln -sf "../scratch/FieldSwap.h"
+Thu 15:45: INFO    : FieldSwap.h (BuildFileSlicH)
+Thu 15:45: INFO    : Running command: ln -sf "../scratch/FieldSwap.max"
+Thu 15:45: INFO    : FieldSwap.max (BuildFileMaxFile)
+Thu 15:45: INFO    : Result files will be copied to '/home/demo/workspace/spreads-max/RunRules/Simulation/maxfiles'
+Thu 15:45: INFO    : Result 'FieldSwap-FieldSwapKernel-original.pxg' is identical to '/home/demo/workspace/spreads-max/RunRules/Simulation/maxfiles/FieldSwap-FieldSwapKernel-original.pxg': not overwriting.
+Thu 15:45: INFO    : Result 'FieldSwap-FieldSwapKernel-final-simulation.pxg' is identical to '/home/demo/workspace/spreads-max/RunRules/Simulation/maxfiles/FieldSwap-FieldSwapKernel-final-simulation.pxg': not overwriting.
+Thu 15:45: INFO    : Result 'FieldSwap.h' is identical to '/home/demo/workspace/spreads-max/RunRules/Simulation/maxfiles/FieldSwap.h': not overwriting.
+Thu 15:45: INFO    : Result 'FieldSwap.max' is identical to '/home/demo/workspace/spreads-max/RunRules/Simulation/maxfiles/FieldSwap.max': not overwriting.
+Thu 15:45: PROGRESS: MaxFile: /home/demo/Desktop/MaxCompiler-Builds/FieldSwap_VECTIS_DFE_SIM/results/FieldSwap.max (MD5Sum: 89d274f19e05c6a579c66ba121aaa846)
+Thu 15:45: INFO    : Waiting for any outstanding jobs to finish... 
+Thu 15:45: PROGRESS: Build completed: Thu Apr 09 15:45:27 PDT 2015 (took 1 min, 57 secs)
