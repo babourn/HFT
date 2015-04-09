@@ -1,179 +1,150 @@
-Thu 15:43: ########################################## 
-Thu 15:43: Compiling.
-Thu 15:43: ########################################## 
+Thu 16:44: ########################################## 
+Thu 16:44: Compiling.
+Thu 16:44: ########################################## 
 
-Thu 15:43: MaxCompiler version: 2014.2 (simulation only).
-Thu 15:43: Build Simulation run rule for spreads-max start time: Thu Apr 09 15:43:26 PDT 2015.
-Thu 15:43: Project location: /home/demo/workspace/spreads-max.
-Thu 15:43: Detailed build log: /home/demo/workspace/spreads-max/RunRules/Simulation/build.log.
+Thu 16:44: MaxCompiler version: 2014.2 (simulation only).
+Thu 16:44: Build Simulation run rule for spreads-max start time: Thu Apr 09 16:44:32 PDT 2015.
+Thu 16:44: Project location: /home/demo/workspace/spreads-max.
+Thu 16:44: Detailed build log: /home/demo/workspace/spreads-max/RunRules/Simulation/build.log.
 
-Thu 15:43: Compiling Engine Code.
-Thu 15:43: Building FieldSwap.max file. 
-Thu 15:43: Setting environment variable:
-Thu 15:43: MAXCOMPILER_BUILD_DIR : /home/demo/workspace/spreads-max/RunRules/Simulation/maxfiles
-Thu 15:43: MAX_BUILDPARAMS : DFEModel='VECTIS' target='DFE_SIM' maxFileName='FieldSwap'  
-Thu 15:43: Building output:
-Thu 15:43: MaxCompiler version: 2014.2 (simulation only)
-Thu 15:43: Build "FieldSwap" start time: Thu Apr 09 15:43:30 PDT 2015
-Thu 15:43: Main build process running as user demo on host localhost.localdomain
-Thu 15:43: Build location: /home/demo/Desktop/MaxCompiler-Builds/FieldSwap_VECTIS_DFE_SIM
-Thu 15:43: Detailed build log available in "_build.log"
-Thu 15:43: Instantiating manager
-Thu 15:43: Instantiating kernel "FieldSwapKernel"
-Thu 15:43: Compiling manager (Configurable)
-Thu 15:43: 
-Thu 15:43: Compiling kernel "FieldSwapKernel"
-Thu 15:43: Running back-end simulation build (3 phases)
-Thu 15:43: (1/3) - Prepare MaxFile Data (GenerateMaxFileDataFile)
-Thu 15:43: (2/3) - Compile Simulation Modules (SimCompilePass)
-Thu 15:45: (3/3) - Generate MaxFile (AddSimObjectToMaxFilePass)
-Thu 15:45: MaxFile: /home/demo/Desktop/MaxCompiler-Builds/FieldSwap_VECTIS_DFE_SIM/results/FieldSwap.max (MD5Sum: 89d274f19e05c6a579c66ba121aaa846)
-Thu 15:45: Build completed: Thu Apr 09 15:45:27 PDT 2015 (took 1 min, 57 secs)
-Thu 15:45: Executing command:
-Thu 15:45: cp /home/demo/workspace/spreads-max/RunRules/Simulation/maxfiles/FieldSwap.h /home/demo/workspace/spreads-max/RunRules/Simulation/include/FieldSwap.h 
-Thu 15:45: Command output:
-Thu 15:45: Building: FieldSwap.max file finished.
-Thu 15:45: Engine build finished.
-Thu 15:45: Compiling CPU Code.
-Thu 15:45: Run CPU project make files updating
-Thu 15:45: Executing command:
-Thu 15:45: java -jar /opt/maxeler/maxcompiler/lib/MaxIDE/projectAdmin.jar -u /home/demo/workspace/spreads-max Simulation 
-Thu 15:45: Command output:
+Thu 16:44: Compiling Engine Code.
+Thu 16:44: Engine building skipped (no changes on .max files).
+Thu 16:44: Compiling CPU Code.
+Thu 16:44: Run CPU project make files updating
+Thu 16:44: Executing command:
+Thu 16:44: java -jar /opt/maxeler/maxcompiler/lib/MaxIDE/projectAdmin.jar -u /home/demo/workspace/spreads-max Simulation 
+Thu 16:44: Command output:
 
-Thu 15:45: MaxCompiler Project Admin Tool Version 2014.2
-Thu 15:45:  Copyright Maxeler Technologies 2010 - 2014. All rights reserved.
+Thu 16:44: MaxCompiler Project Admin Tool Version 2014.2
+Thu 16:44:  Copyright Maxeler Technologies 2010 - 2014. All rights reserved.
 
-Thu 15:45: Handler version 2
-Thu 15:45: Updating RunRule dependent Makefiles for RunRule 'Simulation'
-Thu 15:45: 	Updating: Simulation
-Thu 15:45: Found makefiles: 1
-Thu 15:45: 	Updated: Simulation
-Thu 15:45: Run CPU make.
-Thu 15:45: make RUNRULE=Simulation 
-Thu 15:45: Command output:
-Thu 15:45: make -f Makefile.rules build
-Thu 15:45: make[1]: Entering directory `/home/demo/workspace/spreads-max/CPUCode'
-Thu 15:45: set -e; rm -f ../RunRules/Simulation/objects/c/FieldSwapCpuCode.d ;                                                             \
-Thu 15:45: 	  cc -M -std=gnu99 -g -O3 -Wall -Wextra -I../RunRules/Simulation/include  -I '/opt/maxeler/maxcompiler/include/slic'  -Wno-error FieldSwapCpuCode.c > ../RunRules/Simulation/objects/c/FieldSwapCpuCode.d.$$ ;                                 \
-Thu 15:45:       sed 's,\(FieldSwapCpuCode\)\.o[ :]*,../RunRules/Simulation/objects/c/\1.o ../RunRules/Simulation/objects/c/FieldSwapCpuCode.d : ,g' < ../RunRules/Simulation/objects/c/FieldSwapCpuCode.d.$$ > ../RunRules/Simulation/objects/c/FieldSwapCpuCode.d; \
-Thu 15:45:       rm -f ../RunRules/Simulation/objects/c/FieldSwapCpuCode.d.$$
-Thu 15:45: make[1]: Leaving directory `/home/demo/workspace/spreads-max/CPUCode'
-Thu 15:45: make[1]: Entering directory `/home/demo/workspace/spreads-max/CPUCode'
-Thu 15:45: "/opt/maxeler/maxcompiler/bin/sliccompile" ../RunRules/Simulation/maxfiles/FieldSwap.max ../RunRules/Simulation/objects/maxfiles/slic_FieldSwap.o
-Thu 15:45: Processing maxfile for VECTIS_SIM from '../RunRules/Simulation/maxfiles/FieldSwap.max'.
-Thu 15:45: gcc -std=gnu99 -Wall -Werror -fno-guess-branch-probability -frandom-seed=foo -Wno-unused-variable -Wno-unused-function -fPIC -I /opt/maxeler/maxcompiler/include/slic -DMAXFILE_INC="/home/demo/workspace/spreads-max/CPUCode/../RunRules/Simulation/maxfiles/FieldSwap.max" -DSLIC_NO_DESTRUCTORS -c /opt/maxeler/maxcompiler/src/slicinterface/MaxFileInit.c -o slic_FieldSwap.o 
-Thu 15:45: Copying .max file C object into '/home/demo/workspace/spreads-max/CPUCode/../RunRules/Simulation/objects/maxfiles'
-Thu 15:45: cc -std=gnu99 -g -O3 -Wall -Wextra -I../RunRules/Simulation/include  -I '/opt/maxeler/maxcompiler/include/slic'  -c FieldSwapCpuCode.c -o ../RunRules/Simulation/objects/c/FieldSwapCpuCode.o
-Thu 15:45: cc -std=gnu99 -g -O3 -Wall -Wextra -I../RunRules/Simulation/include  -I '/opt/maxeler/maxcompiler/include/slic'  -o ../RunRules/Simulation/binaries/FieldSwap ../RunRules/Simulation/objects/maxfiles/slic_FieldSwap.o ../RunRules/Simulation/objects/c/FieldSwapCpuCode.o -g -O3  -L '/opt/maxeler/maxcompiler/lib' -lslic -L '/opt/maxeler/maxcompiler/lib/maxeleros-sim/lib' -lmaxeleros -lpthread -lm -lrt 
-Thu 15:45: make[1]: Leaving directory `/home/demo/workspace/spreads-max/CPUCode'
-Thu 15:45: Build completed: Thu Apr 09 15:45:30 PDT 2015
+Thu 16:44: Handler version 2
+Thu 16:44: Updating RunRule dependent Makefiles for RunRule 'Simulation'
+Thu 16:44: 	Updating: Simulation
+Thu 16:44: Found makefiles: 1
+Thu 16:44: 	Updated: Simulation
+Thu 16:44: Run CPU make.
+Thu 16:44: make RUNRULE=Simulation 
+Thu 16:44: Command output:
+Thu 16:44: make -f Makefile.rules build
+Thu 16:44: make[1]: Entering directory `/home/demo/workspace/spreads-max/CPUCode'
+Thu 16:44: set -e; rm -f ../RunRules/Simulation/objects/c/FieldSwapCpuCode.d ;                                                             \
+Thu 16:44: 	  cc -M -std=gnu99 -g -O3 -Wall -Wextra -I../RunRules/Simulation/include  -I '/opt/maxeler/maxcompiler/include/slic'  -Wno-error FieldSwapCpuCode.c > ../RunRules/Simulation/objects/c/FieldSwapCpuCode.d.$$ ;                                 \
+Thu 16:44:       sed 's,\(FieldSwapCpuCode\)\.o[ :]*,../RunRules/Simulation/objects/c/\1.o ../RunRules/Simulation/objects/c/FieldSwapCpuCode.d : ,g' < ../RunRules/Simulation/objects/c/FieldSwapCpuCode.d.$$ > ../RunRules/Simulation/objects/c/FieldSwapCpuCode.d; \
+Thu 16:44:       rm -f ../RunRules/Simulation/objects/c/FieldSwapCpuCode.d.$$
+Thu 16:44: make[1]: Leaving directory `/home/demo/workspace/spreads-max/CPUCode'
+Thu 16:44: make[1]: Entering directory `/home/demo/workspace/spreads-max/CPUCode'
+Thu 16:44: cc -std=gnu99 -g -O3 -Wall -Wextra -I../RunRules/Simulation/include  -I '/opt/maxeler/maxcompiler/include/slic'  -c FieldSwapCpuCode.c -o ../RunRules/Simulation/objects/c/FieldSwapCpuCode.o
+Thu 16:44: cc -std=gnu99 -g -O3 -Wall -Wextra -I../RunRules/Simulation/include  -I '/opt/maxeler/maxcompiler/include/slic'  -o ../RunRules/Simulation/binaries/FieldSwap ../RunRules/Simulation/objects/maxfiles/slic_FieldSwap.o ../RunRules/Simulation/objects/c/FieldSwapCpuCode.o -g -O3  -L '/opt/maxeler/maxcompiler/lib' -lslic -L '/opt/maxeler/maxcompiler/lib/maxeleros-sim/lib' -lmaxeleros -lpthread -lm -lrt 
+Thu 16:44: make[1]: Leaving directory `/home/demo/workspace/spreads-max/CPUCode'
+Thu 16:44: Build completed: Thu Apr 09 16:44:33 PDT 2015
 
 
-Thu 15:45: ########################################## 
-Thu 15:45: Running
-Thu 15:45: ########################################## 
-Thu 15:45: Executing command:
-Thu 15:45: '/home/demo/workspace/spreads-max/RunRules/Simulation/binaries/FieldSwap' '169.254.10.2' '169.254.10.1' '255.255.255.0' 
-Thu 15:45: Command output:
-Thu 15:45: Sent: a = 0x6b8b4567 b = 0x327b23c6  Received: a = 0x327b23c6 b = 0x6b8b4567
-Thu 15:45: Sent: a = 0x643c9869 b = 0x66334873  Received: a = 0x66334873 b = 0x643c9869
-Thu 15:45: Sent: a = 0x74b0dc51 b = 0x19495cff  Received: a = 0x19495cff b = 0x74b0dc51
-Thu 15:45: Sent: a = 0x2ae8944a b = 0x625558ec  Received: a = 0x625558ec b = 0x2ae8944a
-Thu 15:45: Sent: a = 0x238e1f29 b = 0x46e87ccd  Received: a = 0x46e87ccd b = 0x238e1f29
-Thu 15:45: Sent: a = 0x3d1b58ba b = 0x507ed7ab  Received: a = 0x507ed7ab b = 0x3d1b58ba
-Thu 15:45: Sent: a = 0x2eb141f2 b = 0x41b71efb  Received: a = 0x41b71efb b = 0x2eb141f2
-Thu 15:45: Sent: a = 0x79e2a9e3 b = 0x7545e146  Received: a = 0x7545e146 b = 0x79e2a9e3
-Thu 15:45: Sent: a = 0x515f007c b = 0x5bd062c2  Received: a = 0x5bd062c2 b = 0x515f007c
-Thu 15:45: Sent: a = 0x12200854 b = 0x4db127f8  Received: a = 0x4db127f8 b = 0x12200854
-Thu 15:45: Sent: a = 0x216231b  b = 0x1f16e9e8  Received: a = 0x1f16e9e8 b = 0x216231b 
-Thu 15:45: Sent: a = 0x1190cde7 b = 0x66ef438d  Received: a = 0x66ef438d b = 0x1190cde7
-Thu 15:45: Sent: a = 0x140e0f76 b = 0x3352255a  Received: a = 0x3352255a b = 0x140e0f76
-Thu 15:45: Sent: a = 0x109cf92e b = 0xded7263   Received: a = 0xded7263  b = 0x109cf92e
-Thu 15:45: Sent: a = 0x7fdcc233 b = 0x1befd79f  Received: a = 0x1befd79f b = 0x7fdcc233
-Thu 15:45: Sent: a = 0x41a7c4c9 b = 0x6b68079a  Received: a = 0x6b68079a b = 0x41a7c4c9
-Thu 15:45: Sent: a = 0x4e6afb66 b = 0x25e45d32  Received: a = 0x25e45d32 b = 0x4e6afb66
-Thu 15:45: Sent: a = 0x519b500d b = 0x431bd7b7  Received: a = 0x431bd7b7 b = 0x519b500d
-Thu 15:45: Sent: a = 0x3f2dba31 b = 0x7c83e458  Received: a = 0x7c83e458 b = 0x3f2dba31
-Thu 15:45: Sent: a = 0x257130a3 b = 0x62bbd95a  Received: a = 0x62bbd95a b = 0x257130a3
-Thu 15:45: Sent: a = 0x436c6125 b = 0x628c895d  Received: a = 0x628c895d b = 0x436c6125
-Thu 15:45: Sent: a = 0x333ab105 b = 0x721da317  Received: a = 0x721da317 b = 0x333ab105
-Thu 15:45: Sent: a = 0x2443a858 b = 0x2d1d5ae9  Received: a = 0x2d1d5ae9 b = 0x2443a858
-Thu 15:45: Sent: a = 0x6763845e b = 0x75a2a8d4  Received: a = 0x75a2a8d4 b = 0x6763845e
-Thu 15:45: Sent: a = 0x8edbdab  b = 0x79838cb2  Received: a = 0x79838cb2 b = 0x8edbdab 
-Thu 15:45: Sent: a = 0x4353d0cd b = 0xb03e0c6   Received: a = 0xb03e0c6  b = 0x4353d0cd
-Thu 15:45: Sent: a = 0x189a769b b = 0x54e49eb4  Received: a = 0x54e49eb4 b = 0x189a769b
-Thu 15:45: Sent: a = 0x71f32454 b = 0x2ca88611  Received: a = 0x2ca88611 b = 0x71f32454
-Thu 15:45: Sent: a = 0x836c40e  b = 0x2901d82   Received: a = 0x2901d82  b = 0x836c40e 
-Thu 15:45: Sent: a = 0x3a95f874 b = 0x8138641   Received: a = 0x8138641  b = 0x3a95f874
-Thu 15:45: Sent: a = 0x1e7ff521 b = 0x7c3dbd3d  Received: a = 0x7c3dbd3d b = 0x1e7ff521
-Thu 15:45: Sent: a = 0x737b8ddc b = 0x6ceaf087  Received: a = 0x6ceaf087 b = 0x737b8ddc
-Thu 15:45: Sent: a = 0x22221a70 b = 0x4516dde9  Received: a = 0x4516dde9 b = 0x22221a70
-Thu 15:45: Sent: a = 0x3006c83e b = 0x614fd4a1  Received: a = 0x614fd4a1 b = 0x3006c83e
-Thu 15:45: Sent: a = 0x419ac241 b = 0x5577f8e1  Received: a = 0x5577f8e1 b = 0x419ac241
-Thu 15:45: Sent: a = 0x440badfc b = 0x5072367   Received: a = 0x5072367  b = 0x440badfc
-Thu 15:45: Sent: a = 0x3804823e b = 0x77465f01  Received: a = 0x77465f01 b = 0x3804823e
-Thu 15:45: Sent: a = 0x7724c67e b = 0x5c482a97  Received: a = 0x5c482a97 b = 0x7724c67e
-Thu 15:45: Sent: a = 0x2463b9ea b = 0x5e884adc  Received: a = 0x5e884adc b = 0x2463b9ea
-Thu 15:45: Sent: a = 0x51ead36b b = 0x2d517796  Received: a = 0x2d517796 b = 0x51ead36b
-Thu 15:45: Sent: a = 0x580bd78f b = 0x153ea438  Received: a = 0x153ea438 b = 0x580bd78f
-Thu 15:45: Sent: a = 0x3855585c b = 0x70a64e2a  Received: a = 0x70a64e2a b = 0x3855585c
-Thu 15:45: Sent: a = 0x6a2342ec b = 0x2a487cb0  Received: a = 0x2a487cb0 b = 0x6a2342ec
-Thu 15:45: Sent: a = 0x1d4ed43b b = 0x725a06fb  Received: a = 0x725a06fb b = 0x1d4ed43b
-Thu 15:45: Sent: a = 0x2cd89a32 b = 0x57e4ccaf  Received: a = 0x57e4ccaf b = 0x2cd89a32
-Thu 15:45: Sent: a = 0x7a6d8d3c b = 0x4b588f54  Received: a = 0x4b588f54 b = 0x7a6d8d3c
-Thu 15:45: Sent: a = 0x542289ec b = 0x6de91b18  Received: a = 0x6de91b18 b = 0x542289ec
-Thu 15:45: Sent: a = 0x38437fdb b = 0x7644a45c  Received: a = 0x7644a45c b = 0x38437fdb
-Thu 15:45: Sent: a = 0x32fff902 b = 0x684a481a  Received: a = 0x684a481a b = 0x32fff902
-Thu 15:45: Sent: a = 0x579478fe b = 0x749abb43  Received: a = 0x749abb43 b = 0x579478fe
-Thu 15:45: Sent: a = 0x3dc240fb b = 0x1ba026fa  Received: a = 0x1ba026fa b = 0x3dc240fb
-Thu 15:45: Sent: a = 0x79a1deaa b = 0x75c6c33a  Received: a = 0x75c6c33a b = 0x79a1deaa
-Thu 15:45: Sent: a = 0x12e685fb b = 0x70c6a529  Received: a = 0x70c6a529 b = 0x12e685fb
-Thu 15:45: Sent: a = 0x520eedd1 b = 0x374a3fe6  Received: a = 0x374a3fe6 b = 0x520eedd1
-Thu 15:45: Sent: a = 0x4f4ef005 b = 0x23f9c13c  Received: a = 0x23f9c13c b = 0x4f4ef005
-Thu 15:45: Sent: a = 0x649bb77c b = 0x275ac794  Received: a = 0x275ac794 b = 0x649bb77c
-Thu 15:45: Sent: a = 0x39386575 b = 0x1cf10fd8  Received: a = 0x1cf10fd8 b = 0x39386575
-Thu 15:45: Sent: a = 0x180115be b = 0x235ba861  Received: a = 0x235ba861 b = 0x180115be
-Thu 15:45: Sent: a = 0x47398c89 b = 0x354fe9f9  Received: a = 0x354fe9f9 b = 0x47398c89
-Thu 15:45: Sent: a = 0x15b5af5c b = 0x741226bb  Received: a = 0x741226bb b = 0x15b5af5c
-Thu 15:45: Sent: a = 0xd34b6a8  b = 0x10233c99  Received: a = 0x10233c99 b = 0xd34b6a8 
-Thu 15:45: Sent: a = 0x3f6ab60f b = 0x61574095  Received: a = 0x61574095 b = 0x3f6ab60f
-Thu 15:45: Sent: a = 0x7e0c57b1 b = 0x77ae35eb  Received: a = 0x77ae35eb b = 0x7e0c57b1
-Thu 15:45: Sent: a = 0x579be4f1 b = 0x310c50b3  Received: a = 0x310c50b3 b = 0x579be4f1
-Thu 15:45: Sent: a = 0x5ff87e05 b = 0x2f305def  Received: a = 0x2f305def b = 0x5ff87e05
-Thu 15:45: Sent: a = 0x25a70bf7 b = 0x1dbabf00  Received: a = 0x1dbabf00 b = 0x25a70bf7
-Thu 15:45: Sent: a = 0x4ad084e9 b = 0x1f48eaa1  Received: a = 0x1f48eaa1 b = 0x4ad084e9
-Thu 15:45: Sent: a = 0x1381823a b = 0x5db70ae5  Received: a = 0x5db70ae5 b = 0x1381823a
-Thu 15:45: Sent: a = 0x100f8fca b = 0x6590700b  Received: a = 0x6590700b b = 0x100f8fca
-Thu 15:45: Sent: a = 0x15014acb b = 0x5f5e7fd0  Received: a = 0x5f5e7fd0 b = 0x15014acb
-Thu 15:45: Sent: a = 0x98a3148  b = 0x799d0247  Received: a = 0x799d0247 b = 0x98a3148 
-Thu 15:45: Sent: a = 0x6b94764  b = 0x42c296bd  Received: a = 0x42c296bd b = 0x6b94764 
-Thu 15:45: Sent: a = 0x168e121f b = 0x1eba5d23  Received: a = 0x1eba5d23 b = 0x168e121f
-Thu 15:45: Sent: a = 0x661e3f1e b = 0x5dc79ea8  Received: a = 0x5dc79ea8 b = 0x661e3f1e
-Thu 15:45: Sent: a = 0x540a471c b = 0x7bd3ee7b  Received: a = 0x7bd3ee7b b = 0x540a471c
-Thu 15:45: Sent: a = 0x51d9c564 b = 0x613efdc5  Received: a = 0x613efdc5 b = 0x51d9c564
-Thu 15:45: Sent: a = 0xbf72b14  b = 0x11447b73  Received: a = 0x11447b73 b = 0xbf72b14 
-Thu 15:45: Sent: a = 0x42963e5a b = 0xa0382c5   Received: a = 0xa0382c5  b = 0x42963e5a
-Thu 15:45: Sent: a = 0x8f2b15e  b = 0x1a32234b  Received: a = 0x1a32234b b = 0x8f2b15e 
-Thu 15:45: Sent: a = 0x3b0fd379 b = 0x68eb2f63  Received: a = 0x68eb2f63 b = 0x3b0fd379
-Thu 15:45: Sent: a = 0x4962813b b = 0x60b6df70  Received: a = 0x60b6df70 b = 0x4962813b
-Thu 15:45: Sent: a = 0x6a5ee64  b = 0x14330624  Received: a = 0x14330624 b = 0x6a5ee64 
-Thu 15:45: Sent: a = 0x7fffca11 b = 0x1a27709e  Received: a = 0x1a27709e b = 0x7fffca11
-Thu 15:45: Sent: a = 0x71ea1109 b = 0x100f59dc  Received: a = 0x100f59dc b = 0x71ea1109
-Thu 15:45: Sent: a = 0x7fb7e0aa b = 0x6eb5bd4   Received: a = 0x6eb5bd4  b = 0x7fb7e0aa
-Thu 15:45: Sent: a = 0x6f6dd9ac b = 0x94211f2   Received: a = 0x94211f2  b = 0x6f6dd9ac
-Thu 15:45: Sent: a = 0x885e1b   b = 0x76272110  Received: a = 0x76272110 b = 0x885e1b  
-Thu 15:45: Sent: a = 0x4c04a8af b = 0x1716703b  Received: a = 0x1716703b b = 0x4c04a8af
-Thu 15:45: Sent: a = 0x14e17e33 b = 0x3222e7cd  Received: a = 0x3222e7cd b = 0x14e17e33
-Thu 15:45: Sent: a = 0x74de0ee3 b = 0x68ebc550  Received: a = 0x68ebc550 b = 0x74de0ee3
-Thu 15:45: Sent: a = 0x2df6d648 b = 0x46b7d447  Received: a = 0x46b7d447 b = 0x2df6d648
-Thu 15:45: Sent: a = 0x4a2ac315 b = 0x39ee015c  Received: a = 0x39ee015c b = 0x4a2ac315
-Thu 15:45: Sent: a = 0x57fc4fbb b = 0xcc1016f   Received: a = 0xcc1016f  b = 0x57fc4fbb
-Thu 15:45: Sent: a = 0x43f18422 b = 0x60ef0119  Received: a = 0x60ef0119 b = 0x43f18422
-Thu 15:45: Sent: a = 0x26f324ba b = 0x7f01579b  Received: a = 0x7f01579b b = 0x26f324ba
-Thu 15:45: Sent: a = 0x49da307d b = 0x7055a5f5  Received: a = 0x7055a5f5 b = 0x49da307d
-Thu 15:45: Sent: a = 0x5fb8370b b = 0x50801ee1  Received: a = 0x50801ee1 b = 0x5fb8370b
-Thu 15:45: Sent: a = 0x488ac1a  b = 0x5fb8011c  Received: a = 0x5fb8011c b = 0x488ac1a 
-Thu 15:45: Sent: a = 0x6aa78f7f b = 0x7672bd23  Received: a = 0x7672bd23 b = 0x6aa78f7f
-Thu 15:45: Sent: a = 0x6fc75af8 b = 0x6a5f7029  Received: a = 0x6a5f7029 b = 0x6fc75af8
-Thu 15:45: Done.
-Thu 15:45: Process terminated with exit code 0.
+Thu 16:44: ########################################## 
+Thu 16:44: Running
+Thu 16:44: ########################################## 
+Thu 16:44: Executing command:
+Thu 16:44: '/home/demo/workspace/spreads-max/RunRules/Simulation/binaries/FieldSwap' '169.254.10.2' '169.254.10.1' '255.255.255.0' 
+Thu 16:44: Command output:
+Thu 16:44: Sent: a = 0x6b8b4567 b = 0x327b23c6  Received: a = 0x327b23c6 b = 0x6b8b4567
+Thu 16:44: Sent: a = 0x643c9869 b = 0x66334873  Received: a = 0x66334873 b = 0x643c9869
+Thu 16:44: Sent: a = 0x74b0dc51 b = 0x19495cff  Received: a = 0x19495cff b = 0x74b0dc51
+Thu 16:44: Sent: a = 0x2ae8944a b = 0x625558ec  Received: a = 0x625558ec b = 0x2ae8944a
+Thu 16:44: Sent: a = 0x238e1f29 b = 0x46e87ccd  Received: a = 0x46e87ccd b = 0x238e1f29
+Thu 16:44: Sent: a = 0x3d1b58ba b = 0x507ed7ab  Received: a = 0x507ed7ab b = 0x3d1b58ba
+Thu 16:44: Sent: a = 0x2eb141f2 b = 0x41b71efb  Received: a = 0x41b71efb b = 0x2eb141f2
+Thu 16:44: Sent: a = 0x79e2a9e3 b = 0x7545e146  Received: a = 0x7545e146 b = 0x79e2a9e3
+Thu 16:44: Sent: a = 0x515f007c b = 0x5bd062c2  Received: a = 0x5bd062c2 b = 0x515f007c
+Thu 16:44: Sent: a = 0x12200854 b = 0x4db127f8  Received: a = 0x4db127f8 b = 0x12200854
+Thu 16:44: Sent: a = 0x216231b  b = 0x1f16e9e8  Received: a = 0x1f16e9e8 b = 0x216231b 
+Thu 16:44: Sent: a = 0x1190cde7 b = 0x66ef438d  Received: a = 0x66ef438d b = 0x1190cde7
+Thu 16:44: Sent: a = 0x140e0f76 b = 0x3352255a  Received: a = 0x3352255a b = 0x140e0f76
+Thu 16:44: Sent: a = 0x109cf92e b = 0xded7263   Received: a = 0xded7263  b = 0x109cf92e
+Thu 16:44: Sent: a = 0x7fdcc233 b = 0x1befd79f  Received: a = 0x1befd79f b = 0x7fdcc233
+Thu 16:44: Sent: a = 0x41a7c4c9 b = 0x6b68079a  Received: a = 0x6b68079a b = 0x41a7c4c9
+Thu 16:44: Sent: a = 0x4e6afb66 b = 0x25e45d32  Received: a = 0x25e45d32 b = 0x4e6afb66
+Thu 16:44: Sent: a = 0x519b500d b = 0x431bd7b7  Received: a = 0x431bd7b7 b = 0x519b500d
+Thu 16:44: Sent: a = 0x3f2dba31 b = 0x7c83e458  Received: a = 0x7c83e458 b = 0x3f2dba31
+Thu 16:44: Sent: a = 0x257130a3 b = 0x62bbd95a  Received: a = 0x62bbd95a b = 0x257130a3
+Thu 16:44: Sent: a = 0x436c6125 b = 0x628c895d  Received: a = 0x628c895d b = 0x436c6125
+Thu 16:44: Sent: a = 0x333ab105 b = 0x721da317  Received: a = 0x721da317 b = 0x333ab105
+Thu 16:44: Sent: a = 0x2443a858 b = 0x2d1d5ae9  Received: a = 0x2d1d5ae9 b = 0x2443a858
+Thu 16:44: Sent: a = 0x6763845e b = 0x75a2a8d4  Received: a = 0x75a2a8d4 b = 0x6763845e
+Thu 16:44: Sent: a = 0x8edbdab  b = 0x79838cb2  Received: a = 0x79838cb2 b = 0x8edbdab 
+Thu 16:44: Sent: a = 0x4353d0cd b = 0xb03e0c6   Received: a = 0xb03e0c6  b = 0x4353d0cd
+Thu 16:44: Sent: a = 0x189a769b b = 0x54e49eb4  Received: a = 0x54e49eb4 b = 0x189a769b
+Thu 16:44: Sent: a = 0x71f32454 b = 0x2ca88611  Received: a = 0x2ca88611 b = 0x71f32454
+Thu 16:44: Sent: a = 0x836c40e  b = 0x2901d82   Received: a = 0x2901d82  b = 0x836c40e 
+Thu 16:44: Sent: a = 0x3a95f874 b = 0x8138641   Received: a = 0x8138641  b = 0x3a95f874
+Thu 16:44: Sent: a = 0x1e7ff521 b = 0x7c3dbd3d  Received: a = 0x7c3dbd3d b = 0x1e7ff521
+Thu 16:44: Sent: a = 0x737b8ddc b = 0x6ceaf087  Received: a = 0x6ceaf087 b = 0x737b8ddc
+Thu 16:44: Sent: a = 0x22221a70 b = 0x4516dde9  Received: a = 0x4516dde9 b = 0x22221a70
+Thu 16:44: Sent: a = 0x3006c83e b = 0x614fd4a1  Received: a = 0x614fd4a1 b = 0x3006c83e
+Thu 16:44: Sent: a = 0x419ac241 b = 0x5577f8e1  Received: a = 0x5577f8e1 b = 0x419ac241
+Thu 16:44: Sent: a = 0x440badfc b = 0x5072367   Received: a = 0x5072367  b = 0x440badfc
+Thu 16:44: Sent: a = 0x3804823e b = 0x77465f01  Received: a = 0x77465f01 b = 0x3804823e
+Thu 16:44: Sent: a = 0x7724c67e b = 0x5c482a97  Received: a = 0x5c482a97 b = 0x7724c67e
+Thu 16:44: Sent: a = 0x2463b9ea b = 0x5e884adc  Received: a = 0x5e884adc b = 0x2463b9ea
+Thu 16:44: Sent: a = 0x51ead36b b = 0x2d517796  Received: a = 0x2d517796 b = 0x51ead36b
+Thu 16:44: Sent: a = 0x580bd78f b = 0x153ea438  Received: a = 0x153ea438 b = 0x580bd78f
+Thu 16:44: Sent: a = 0x3855585c b = 0x70a64e2a  Received: a = 0x70a64e2a b = 0x3855585c
+Thu 16:44: Sent: a = 0x6a2342ec b = 0x2a487cb0  Received: a = 0x2a487cb0 b = 0x6a2342ec
+Thu 16:44: Sent: a = 0x1d4ed43b b = 0x725a06fb  Received: a = 0x725a06fb b = 0x1d4ed43b
+Thu 16:44: Sent: a = 0x2cd89a32 b = 0x57e4ccaf  Received: a = 0x57e4ccaf b = 0x2cd89a32
+Thu 16:44: Sent: a = 0x7a6d8d3c b = 0x4b588f54  Received: a = 0x4b588f54 b = 0x7a6d8d3c
+Thu 16:44: Sent: a = 0x542289ec b = 0x6de91b18  Received: a = 0x6de91b18 b = 0x542289ec
+Thu 16:44: Sent: a = 0x38437fdb b = 0x7644a45c  Received: a = 0x7644a45c b = 0x38437fdb
+Thu 16:44: Sent: a = 0x32fff902 b = 0x684a481a  Received: a = 0x684a481a b = 0x32fff902
+Thu 16:44: Sent: a = 0x579478fe b = 0x749abb43  Received: a = 0x749abb43 b = 0x579478fe
+Thu 16:44: Sent: a = 0x3dc240fb b = 0x1ba026fa  Received: a = 0x1ba026fa b = 0x3dc240fb
+Thu 16:44: Sent: a = 0x79a1deaa b = 0x75c6c33a  Received: a = 0x75c6c33a b = 0x79a1deaa
+Thu 16:44: Sent: a = 0x12e685fb b = 0x70c6a529  Received: a = 0x70c6a529 b = 0x12e685fb
+Thu 16:44: Sent: a = 0x520eedd1 b = 0x374a3fe6  Received: a = 0x374a3fe6 b = 0x520eedd1
+Thu 16:44: Sent: a = 0x4f4ef005 b = 0x23f9c13c  Received: a = 0x23f9c13c b = 0x4f4ef005
+Thu 16:44: Sent: a = 0x649bb77c b = 0x275ac794  Received: a = 0x275ac794 b = 0x649bb77c
+Thu 16:44: Sent: a = 0x39386575 b = 0x1cf10fd8  Received: a = 0x1cf10fd8 b = 0x39386575
+Thu 16:44: Sent: a = 0x180115be b = 0x235ba861  Received: a = 0x235ba861 b = 0x180115be
+Thu 16:44: Sent: a = 0x47398c89 b = 0x354fe9f9  Received: a = 0x354fe9f9 b = 0x47398c89
+Thu 16:44: Sent: a = 0x15b5af5c b = 0x741226bb  Received: a = 0x741226bb b = 0x15b5af5c
+Thu 16:44: Sent: a = 0xd34b6a8  b = 0x10233c99  Received: a = 0x10233c99 b = 0xd34b6a8 
+Thu 16:44: Sent: a = 0x3f6ab60f b = 0x61574095  Received: a = 0x61574095 b = 0x3f6ab60f
+Thu 16:44: Sent: a = 0x7e0c57b1 b = 0x77ae35eb  Received: a = 0x77ae35eb b = 0x7e0c57b1
+Thu 16:44: Sent: a = 0x579be4f1 b = 0x310c50b3  Received: a = 0x310c50b3 b = 0x579be4f1
+Thu 16:44: Sent: a = 0x5ff87e05 b = 0x2f305def  Received: a = 0x2f305def b = 0x5ff87e05
+Thu 16:44: Sent: a = 0x25a70bf7 b = 0x1dbabf00  Received: a = 0x1dbabf00 b = 0x25a70bf7
+Thu 16:44: Sent: a = 0x4ad084e9 b = 0x1f48eaa1  Received: a = 0x1f48eaa1 b = 0x4ad084e9
+Thu 16:44: Sent: a = 0x1381823a b = 0x5db70ae5  Received: a = 0x5db70ae5 b = 0x1381823a
+Thu 16:44: Sent: a = 0x100f8fca b = 0x6590700b  Received: a = 0x6590700b b = 0x100f8fca
+Thu 16:44: Sent: a = 0x15014acb b = 0x5f5e7fd0  Received: a = 0x5f5e7fd0 b = 0x15014acb
+Thu 16:44: Sent: a = 0x98a3148  b = 0x799d0247  Received: a = 0x799d0247 b = 0x98a3148 
+Thu 16:44: Sent: a = 0x6b94764  b = 0x42c296bd  Received: a = 0x42c296bd b = 0x6b94764 
+Thu 16:44: Sent: a = 0x168e121f b = 0x1eba5d23  Received: a = 0x1eba5d23 b = 0x168e121f
+Thu 16:44: Sent: a = 0x661e3f1e b = 0x5dc79ea8  Received: a = 0x5dc79ea8 b = 0x661e3f1e
+Thu 16:44: Sent: a = 0x540a471c b = 0x7bd3ee7b  Received: a = 0x7bd3ee7b b = 0x540a471c
+Thu 16:44: Sent: a = 0x51d9c564 b = 0x613efdc5  Received: a = 0x613efdc5 b = 0x51d9c564
+Thu 16:44: Sent: a = 0xbf72b14  b = 0x11447b73  Received: a = 0x11447b73 b = 0xbf72b14 
+Thu 16:44: Sent: a = 0x42963e5a b = 0xa0382c5   Received: a = 0xa0382c5  b = 0x42963e5a
+Thu 16:44: Sent: a = 0x8f2b15e  b = 0x1a32234b  Received: a = 0x1a32234b b = 0x8f2b15e 
+Thu 16:44: Sent: a = 0x3b0fd379 b = 0x68eb2f63  Received: a = 0x68eb2f63 b = 0x3b0fd379
+Thu 16:44: Sent: a = 0x4962813b b = 0x60b6df70  Received: a = 0x60b6df70 b = 0x4962813b
+Thu 16:44: Sent: a = 0x6a5ee64  b = 0x14330624  Received: a = 0x14330624 b = 0x6a5ee64 
+Thu 16:44: Sent: a = 0x7fffca11 b = 0x1a27709e  Received: a = 0x1a27709e b = 0x7fffca11
+Thu 16:44: Sent: a = 0x71ea1109 b = 0x100f59dc  Received: a = 0x100f59dc b = 0x71ea1109
+Thu 16:44: Sent: a = 0x7fb7e0aa b = 0x6eb5bd4   Received: a = 0x6eb5bd4  b = 0x7fb7e0aa
+Thu 16:44: Sent: a = 0x6f6dd9ac b = 0x94211f2   Received: a = 0x94211f2  b = 0x6f6dd9ac
+Thu 16:44: Sent: a = 0x885e1b   b = 0x76272110  Received: a = 0x76272110 b = 0x885e1b  
+Thu 16:44: Sent: a = 0x4c04a8af b = 0x1716703b  Received: a = 0x1716703b b = 0x4c04a8af
+Thu 16:44: Sent: a = 0x14e17e33 b = 0x3222e7cd  Received: a = 0x3222e7cd b = 0x14e17e33
+Thu 16:44: Sent: a = 0x74de0ee3 b = 0x68ebc550  Received: a = 0x68ebc550 b = 0x74de0ee3
+Thu 16:44: Sent: a = 0x2df6d648 b = 0x46b7d447  Received: a = 0x46b7d447 b = 0x2df6d648
+Thu 16:44: Sent: a = 0x4a2ac315 b = 0x39ee015c  Received: a = 0x39ee015c b = 0x4a2ac315
+Thu 16:44: Sent: a = 0x57fc4fbb b = 0xcc1016f   Received: a = 0xcc1016f  b = 0x57fc4fbb
+Thu 16:44: Sent: a = 0x43f18422 b = 0x60ef0119  Received: a = 0x60ef0119 b = 0x43f18422
+Thu 16:44: Sent: a = 0x26f324ba b = 0x7f01579b  Received: a = 0x7f01579b b = 0x26f324ba
+Thu 16:44: Sent: a = 0x49da307d b = 0x7055a5f5  Received: a = 0x7055a5f5 b = 0x49da307d
+Thu 16:44: Sent: a = 0x5fb8370b b = 0x50801ee1  Received: a = 0x50801ee1 b = 0x5fb8370b
+Thu 16:44: Sent: a = 0x488ac1a  b = 0x5fb8011c  Received: a = 0x5fb8011c b = 0x488ac1a 
+Thu 16:44: Sent: a = 0x6aa78f7f b = 0x7672bd23  Received: a = 0x7672bd23 b = 0x6aa78f7f
+Thu 16:44: Sent: a = 0x6fc75af8 b = 0x6a5f7029  Received: a = 0x6a5f7029 b = 0x6fc75af8
+Thu 16:44: Done.
+Thu 16:44: Process terminated with exit code 0.

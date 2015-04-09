@@ -8,7 +8,7 @@
 <maxFiles>
 <maxFile buildName="FieldSwap" buildOrUseExisting="build">
 <runConfiguration askBeforeAutoBuild="false">
-<mainClass>fieldswap.FieldSwapManager</mainClass>
+<mainClass>fieldswap.SpreadDeltaManager</mainClass>
 <maxHeapSize>2</maxHeapSize>
 </runConfiguration>
 <selectEngineTarget enabled="false">VECTIS</selectEngineTarget>
