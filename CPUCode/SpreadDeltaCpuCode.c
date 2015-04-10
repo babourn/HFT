@@ -86,21 +86,23 @@ void exchangeFrames(int sock)
     spread_t source_frame;
     spread_t received_frame;
    
-    for (int j = 0; j < 100; j++) 
-    {
-	source_frame.field_a = rand();
-	source_frame.field_b = rand();
-	
-	send(sock, &source_frame, sizeof(payload_t), 0);
-	printf("Sent: a = 0x%-8x b = 0x%-8x  ", source_frame.field_a, source_frame.field_b);
-
-	recv(sock, &received_frame, sizeof(payload_t), 0);
-	printf("Received: a = 0x%-8x b = 0x%-8x\n", received_frame.field_a, received_frame.field_b);
-
-	if (received_frame.field_a != source_frame.field_b || received_frame.field_b != source_frame.field_a) 
-	{
-	    printf("Error!\n");
-	    exit(1);
-	}
+    /*
+      for (int j = 0; j < 100; j++) 
+      {
+      source_frame.field_a = rand();
+      source_frame.field_b = rand();
+      
+      send(sock, &source_frame, sizeof(payload_t), 0);
+      printf("Sent: a = 0x%-8x b = 0x%-8x  ", source_frame.field_a, source_frame.field_b);
+      
+      recv(sock, &received_frame, sizeof(payload_t), 0);
+      printf("Received: a = 0x%-8x b = 0x%-8x\n", received_frame.field_a, received_frame.field_b);
+      
+      if (received_frame.field_a != source_frame.field_b || received_frame.field_b != source_frame.field_a) 
+      {
+      printf("Error!\n");
+      exit(1);
+      }
     }
+    */
 }
