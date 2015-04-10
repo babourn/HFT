@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<maxCompilerManager version="2">
+<enginePart internalEngineSubproject="spreads-max_EngineCode" isSrcBin="false" isUseDefaultSelected="false" outputLocation="/spreads-max_EngineCode/bin" projectName="spreads-max"/>
+<cpuPart internalCpuSubproject="spreads-max_CPUCode"/>
+<watchedFiles/>
+</maxCompilerManager>
