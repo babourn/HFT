@@ -9,7 +9,6 @@
 #include <sys/ioctl.h>
 #include <sys/socket.h>
 
-
 #include <errno.h>
 #include <stdbool.h>
 #include <stdio.h>
@@ -38,7 +37,7 @@ int main(int argc, char *argv[])
     }
 
     struct in_addr dfe_ip, cpu_ip, netmask;
-
+    
     inet_aton(argv[1], &dfe_ip);
     inet_aton(argv[2], &cpu_ip);
     inet_aton(argv[3], &netmask);
@@ -86,24 +85,10 @@ void exchangeFrames(int sock)
 {
     struct spread_t source_frame;
     struct spread_t received_frame;
+
+    source_frame.spread = 200.1;
+    source_frame.leg_b = 300;
+    source_frame.leg_s = 100;
    
-    /*
-      for (int j = 0; j < 100; j++) 
-      {
-      source_frame.field_a = rand();
-      source_frame.field_b = rand();
-      
-      send(sock, &source_frame, sizeof(payload_t), 0);
-      printf("Sent: a = 0x%-8x b = 0x%-8x  ", source_frame.field_a, source_frame.field_b);
-      
-      recv(sock, &received_frame, sizeof(payload_t), 0);
-      printf("Received: a = 0x%-8x b = 0x%-8x\n", received_frame.field_a, received_frame.field_b);
-      
-      if (received_frame.field_a != source_frame.field_b || received_frame.field_b != source_frame.field_a) 
-      {
-      printf("Error!\n");
-      exit(1);
-      }
-    }
-    */
+    send(sock, &source_frame, sizeof(spread_t), 0);
 }
