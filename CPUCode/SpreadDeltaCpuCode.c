@@ -18,12 +18,12 @@
 #include "Maxfiles.h"
 #include "MaxSLiCInterface.h"
 
-typedef struct spread_t
+typedef struct spread_s
 {
     float spread;
     float leg_b;
     float leg_s;
-} si;
+} __atribute__ ((__packed__)) spread_t;;
 
 static int create_cpu_tcp_socket(struct in_addr *, int);
 void exchangeFrames(int); 
@@ -83,8 +83,8 @@ static int create_cpu_tcp_socket(struct in_addr *remote_ip, int port)
 
 void exchangeFrames(int sock) 
 {
-    struct spread_t source_frame;
-    struct spread_t received_frame;
+    struct spread_s source_frame;
+    struct spread_s received_frame;
 
     source_frame.spread = 200.1;
     source_frame.leg_b = 300;
