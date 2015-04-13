@@ -23,7 +23,7 @@ typedef struct spread_s
     float spread;
     float leg_b;
     float leg_s;
-} __atribute__ ((__packed__)) spread_t;;
+} __attribute__ ((__packed__)) spread_t;
 
 static int create_cpu_tcp_socket(struct in_addr *, int);
 void exchangeFrames(int); 
