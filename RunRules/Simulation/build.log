@@ -1,56 +1,58 @@
-Mon 14:47: ########################################## 
-Mon 14:47: Compiling.
-Mon 14:47: ########################################## 
+Mon 16:12: ########################################## 
+Mon 16:12: Compiling.
+Mon 16:12: ########################################## 
 
-Mon 14:47: MaxCompiler version: 2014.2 (simulation only).
-Mon 14:47: Build Simulation run rule for spreads-max start time: Mon Apr 13 14:47:56 PDT 2015.
-Mon 14:47: Project location: /home/demo/workspace/spreads-max.
-Mon 14:47: Detailed build log: /home/demo/workspace/spreads-max/RunRules/Simulation/build.log.
+Mon 16:12: MaxCompiler version: 2014.2 (simulation only).
+Mon 16:12: Build Simulation run rule for spreads-max start time: Mon Apr 13 16:12:19 PDT 2015.
+Mon 16:12: Project location: /home/demo/workspace/spreads-max.
+Mon 16:12: Detailed build log: /home/demo/workspace/spreads-max/RunRules/Simulation/build.log.
 
-Mon 14:47: Compiling Engine Code.
-Mon 14:47: Engine building skipped (no changes on .max files).
-Mon 14:47: Compiling CPU Code.
-Mon 14:47: Run CPU project make files updating
-Mon 14:47: Executing command:
-Mon 14:47: java -jar /opt/maxeler/maxcompiler/lib/MaxIDE/projectAdmin.jar -u /home/demo/workspace/spreads-max Simulation 
-Mon 14:47: Command output:
+Mon 16:12: Compiling Engine Code.
+Mon 16:12: Engine building skipped (no changes on .max files).
+Mon 16:12: Compiling CPU Code.
+Mon 16:12: Run CPU project make files updating
+Mon 16:12: Executing command:
+Mon 16:12: java -jar /opt/maxeler/maxcompiler/lib/MaxIDE/projectAdmin.jar -u /home/demo/workspace/spreads-max Simulation 
+Mon 16:12: Command output:
 
-Mon 14:47: MaxCompiler Project Admin Tool Version 2014.2
-Mon 14:47:  Copyright Maxeler Technologies 2010 - 2014. All rights reserved.
+Mon 16:12: MaxCompiler Project Admin Tool Version 2014.2
+Mon 16:12:  Copyright Maxeler Technologies 2010 - 2014. All rights reserved.
 
-Mon 14:47: Handler version 2
-Mon 14:47: Updating RunRule dependent Makefiles for RunRule 'Simulation'
-Mon 14:47: 	Updating: Simulation
-Mon 14:47: Found makefiles: 1
-Mon 14:47: 	Updated: Simulation
-Mon 14:47: Run CPU make.
-Mon 14:47: make RUNRULE=Simulation 
-Mon 14:47: Command output:
-Mon 14:47: make -f Makefile.rules build
-Mon 14:47: make[1]: Entering directory `/home/demo/workspace/spreads-max/CPUCode'
-Mon 14:47: set -e; rm -f ../RunRules/Simulation/objects/c/SpreadDeltaCpuCode.d ;                                                             \
-Mon 14:47: 	  cc -M -std=gnu99 -g -O3 -Wall -Wextra -I../RunRules/Simulation/include  -I '/opt/maxeler/maxcompiler/include/slic'  -Wno-error SpreadDeltaCpuCode.c > ../RunRules/Simulation/objects/c/SpreadDeltaCpuCode.d.$$ ;                                 \
-Mon 14:47:       sed 's,\(SpreadDeltaCpuCode\)\.o[ :]*,../RunRules/Simulation/objects/c/\1.o ../RunRules/Simulation/objects/c/SpreadDeltaCpuCode.d : ,g' < ../RunRules/Simulation/objects/c/SpreadDeltaCpuCode.d.$$ > ../RunRules/Simulation/objects/c/SpreadDeltaCpuCode.d; \
-Mon 14:47:       rm -f ../RunRules/Simulation/objects/c/SpreadDeltaCpuCode.d.$$
-Mon 14:47: make[1]: Leaving directory `/home/demo/workspace/spreads-max/CPUCode'
-Mon 14:47: make[1]: Entering directory `/home/demo/workspace/spreads-max/CPUCode'
-Mon 14:47: cc -std=gnu99 -g -O3 -Wall -Wextra -I../RunRules/Simulation/include  -I '/opt/maxeler/maxcompiler/include/slic'  -c SpreadDeltaCpuCode.c -o ../RunRules/Simulation/objects/c/SpreadDeltaCpuCode.o
-Mon 14:47: SpreadDeltaCpuCode.c: In function ‘exchangeFrames’:
-Mon 14:47: SpreadDeltaCpuCode.c:88: warning: unused variable ‘received_frame’
-Mon 14:47: SpreadDeltaCpuCode.c:87: warning: unused variable ‘source_frame’
-Mon 14:47: SpreadDeltaCpuCode.c:85: warning: unused parameter ‘sock’
-Mon 14:47: cc -std=gnu99 -g -O3 -Wall -Wextra -I../RunRules/Simulation/include  -I '/opt/maxeler/maxcompiler/include/slic'  -o ../RunRules/Simulation/binaries/FieldSwap ../RunRules/Simulation/objects/maxfiles/slic_FieldSwap.o ../RunRules/Simulation/objects/c/SpreadDeltaCpuCode.o -g -O3  -L '/opt/maxeler/maxcompiler/lib' -lslic -L '/opt/maxeler/maxcompiler/lib/maxeleros-sim/lib' -lmaxeleros -lpthread -lm -lrt 
-Mon 14:47: make[1]: Leaving directory `/home/demo/workspace/spreads-max/CPUCode'
-Mon 14:47: Build completed: Mon Apr 13 14:47:57 PDT 2015
+Mon 16:12: Handler version 2
+Mon 16:12: Updating RunRule dependent Makefiles for RunRule 'Simulation'
+Mon 16:12: 	Updating: Simulation
+Mon 16:12: Found makefiles: 1
+Mon 16:12: 	Updated: Simulation
+Mon 16:12: Run CPU make.
+Mon 16:12: make RUNRULE=Simulation 
+Mon 16:12: Command output:
+Mon 16:12: make -f Makefile.rules build
+Mon 16:12: make[1]: Entering directory `/home/demo/workspace/spreads-max/CPUCode'
+Mon 16:12: set -e; rm -f ../RunRules/Simulation/objects/c/SpreadDeltaCpuCode.d ;                                                             \
+Mon 16:12: 	  cc -M -std=gnu99 -g -O3 -Wall -Wextra -I../RunRules/Simulation/include  -I '/opt/maxeler/maxcompiler/include/slic'  -Wno-error SpreadDeltaCpuCode.c > ../RunRules/Simulation/objects/c/SpreadDeltaCpuCode.d.$$ ;                                 \
+Mon 16:12:       sed 's,\(SpreadDeltaCpuCode\)\.o[ :]*,../RunRules/Simulation/objects/c/\1.o ../RunRules/Simulation/objects/c/SpreadDeltaCpuCode.d : ,g' < ../RunRules/Simulation/objects/c/SpreadDeltaCpuCode.d.$$ > ../RunRules/Simulation/objects/c/SpreadDeltaCpuCode.d; \
+Mon 16:12:       rm -f ../RunRules/Simulation/objects/c/SpreadDeltaCpuCode.d.$$
+Mon 16:12: make[1]: Leaving directory `/home/demo/workspace/spreads-max/CPUCode'
+Mon 16:12: make[1]: Entering directory `/home/demo/workspace/spreads-max/CPUCode'
+Mon 16:12: cc -std=gnu99 -g -O3 -Wall -Wextra -I../RunRules/Simulation/include  -I '/opt/maxeler/maxcompiler/include/slic'  -c SpreadDeltaCpuCode.c -o ../RunRules/Simulation/objects/c/SpreadDeltaCpuCode.o
+Mon 16:12: SpreadDeltaCpuCode.c:26: error: expected declaration specifiers or ‘...’ before ‘(’ tokenmake[1]: Leaving directory `/home/demo/workspace/spreads-max/CPUCode'
+
+Mon 16:12: SpreadDeltaCpuCode.c:26: error: function definition declared ‘typedef’
+Mon 16:12: SpreadDeltaCpuCode.c: In function ‘__atribute__’:
+Mon 16:12: SpreadDeltaCpuCode.c:26: error: expected declaration specifiers before ‘spread_t’
+Mon 16:12: SpreadDeltaCpuCode.c:26: error: expected declaration specifiers before ‘;’ token
+Mon 16:12: SpreadDeltaCpuCode.c:28: error: storage class specified for parameter ‘create_cpu_tcp_socket’
+Mon 16:12: SpreadDeltaCpuCode.c:32: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+Mon 16:12: SpreadDeltaCpuCode.c:67: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+Mon 16:12: SpreadDeltaCpuCode.c:85: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+Mon 16:12: SpreadDeltaCpuCode.c:29: error: declaration for parameter ‘exchangeFrames’ but no such parameter
+Mon 16:12: SpreadDeltaCpuCode.c:28: error: declaration for parameter ‘create_cpu_tcp_socket’ but no such parameter
+Mon 16:12: SpreadDeltaCpuCode.c:94: error: expected ‘{’ at end of input
+Mon 16:12: SpreadDeltaCpuCode.c:29: warning: unused parameter ‘exchangeFrames’
+Mon 16:12: SpreadDeltaCpuCode.c:28: warning: unused parameter ‘create_cpu_tcp_socket’
+Mon 16:12: make[1]: *** [../RunRules/Simulation/objects/c/SpreadDeltaCpuCode.o] Error 1
+Mon 16:12: make: *** [build] Error 2
+Mon 16:12: Make command failed with status = 2
+Mon 16:12: Build failed: Mon Apr 13 16:12:20 PDT 2015
 
 
-Mon 14:47: ########################################## 
-Mon 14:47: Running
-Mon 14:47: ########################################## 
-Mon 14:47: Executing command:
-Mon 14:47: '/home/demo/workspace/spreads-max/RunRules/Simulation/binaries/FieldSwap' '169.254.10.2' '169.254.10.1' '255.255.255.0' 
-Mon 14:47: Command output:
-Mon 14:47: SLiC Error #446 @ toe_internal.c:2292 - No such TCP stream 'tcp_ch2_sfp1'
-Mon 14:47: SLiC Error #518 @ tcp.c:35 - Error reported from function "max_tcp_create_socket_with_number".
-Mon 14:47: Process terminated with exit code -1.
-Mon 14:47: Aborted
