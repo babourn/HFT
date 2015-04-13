@@ -5,8 +5,10 @@
 #include <linux/if_ether.h>
 #include <netinet/ether.h>
 #include <netinet/in.h>
+#include <netinet/tcp.h>
 #include <sys/ioctl.h>
 #include <sys/socket.h>
+
 
 #include <errno.h>
 #include <stdbool.h>
