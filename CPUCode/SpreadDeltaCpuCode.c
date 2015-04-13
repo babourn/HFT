@@ -17,7 +17,6 @@
 #include "Maxfiles.h"
 #include "MaxSLiCInterface.h"
 
-
 typedef struct spread_t
 {
     float spread;
@@ -41,7 +40,7 @@ int main(int argc, char *argv[])
     inet_aton(argv[1], &dfe_ip);
     inet_aton(argv[2], &cpu_ip);
     inet_aton(argv[3], &netmask);
-    const int port = 5007;
+    const int tcp_port = 5008;
     
     max_file_t *maxfile = FieldSwap_init();
     max_engine_t *engine = max_load(maxfile, "*");
@@ -53,7 +52,7 @@ int main(int argc, char *argv[])
     max_tcp_await_state(dfe_tcp_socket, MAX_TCP_STATE_LISTEN, NULL);
     int cpu_tcp_socket = create_cpu_tcp_socket(&dfe_ip, tcp_port);
     
-    exchangeFrames(cpu_tcp_socket);    
+    exchangeFrames(cpu_tcp_socket);
 
     max_tcp_close(dfe_tcp_socket);
     max_unload(engine);
