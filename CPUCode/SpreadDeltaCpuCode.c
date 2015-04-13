@@ -84,7 +84,7 @@ static int create_cpu_tcp_socket(struct in_addr *remote_ip, int port)
 void exchangeFrames(int sock) 
 {
     struct spread_s source_frame;
-    struct spread_s received_frame;
+    // struct spread_s received_frame;
 
     source_frame.spread = 200.1;
     source_frame.leg_b = 300;
