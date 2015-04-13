@@ -24,14 +24,15 @@
  /usr/include/linux/socket.h /usr/include/linux/hdlc/ioctl.h \
  /usr/include/linux/if_ether.h /usr/include/netinet/ether.h \
  /usr/include/netinet/if_ether.h /usr/include/net/ethernet.h \
- /usr/include/net/if_arp.h /usr/include/sys/ioctl.h \
- /usr/include/bits/ioctls.h /usr/include/asm/ioctls.h \
- /usr/include/asm-generic/ioctls.h /usr/include/linux/ioctl.h \
- /usr/include/asm/ioctl.h /usr/include/asm-generic/ioctl.h \
- /usr/include/bits/ioctl-types.h /usr/include/sys/ttydefaults.h \
- /usr/include/errno.h /usr/include/bits/errno.h \
- /usr/include/linux/errno.h /usr/include/asm/errno.h \
- /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/net/if_arp.h /usr/include/netinet/tcp.h \
+ /usr/include/sys/ioctl.h /usr/include/bits/ioctls.h \
+ /usr/include/asm/ioctls.h /usr/include/asm-generic/ioctls.h \
+ /usr/include/linux/ioctl.h /usr/include/asm/ioctl.h \
+ /usr/include/asm-generic/ioctl.h /usr/include/bits/ioctl-types.h \
+ /usr/include/sys/ttydefaults.h /usr/include/errno.h \
+ /usr/include/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/asm/errno.h /usr/include/asm-generic/errno.h \
+ /usr/include/asm-generic/errno-base.h \
  /usr/lib/gcc/x86_64-redhat-linux/4.4.7/include/stdbool.h \
  /usr/include/stdio.h /usr/include/libio.h /usr/include/_G_config.h \
  /usr/include/wchar.h \
