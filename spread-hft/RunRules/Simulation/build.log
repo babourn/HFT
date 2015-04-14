@@ -1,0 +1,42 @@
+Mon 17:32: ########################################## 
+Mon 17:32: Compiling.
+Mon 17:32: ########################################## 
+
+Mon 17:32: MaxCompiler version: 2014.2 (simulation only).
+Mon 17:32: Build Simulation run rule for spread-hft start time: Mon Apr 13 17:32:00 PDT 2015.
+Mon 17:32: Project location: /home/demo/workspace/spread-hft.
+Mon 17:32: Detailed build log: /home/demo/workspace/spread-hft/RunRules/Simulation/build.log.
+
+Mon 17:32: Compiling Engine Code.
+Mon 17:32: Engine building skipped (no changes on .max files).
+Mon 17:32: Compiling CPU Code.
+Mon 17:32: Run CPU project make files updating
+Mon 17:32: Executing command:
+Mon 17:32: java -jar /opt/maxeler/maxcompiler/lib/MaxIDE/projectAdmin.jar -u /home/demo/workspace/spread-hft Simulation 
+Mon 17:32: Command output:
+
+Mon 17:32: MaxCompiler Project Admin Tool Version 2014.2
+Mon 17:32:  Copyright Maxeler Technologies 2010 - 2014. All rights reserved.
+
+Mon 17:32: Handler version 2
+Mon 17:32: Updating RunRule dependent Makefiles for RunRule 'Simulation'
+Mon 17:32: 	Updating: Simulation
+Mon 17:32: Found makefiles: 1
+Mon 17:32: 	Updated: Simulation
+Mon 17:32: Run CPU make.
+Mon 17:32: make RUNRULE=Simulation 
+Mon 17:32: Command output:
+Mon 17:32: make -f Makefile.rules build
+Mon 17:32: make[1]: Entering directory `/home/demo/workspace/spread-hft/CPUCode'
+Mon 17:32: set -e; rm -f ../RunRules/Simulation/objects/c/SpreadHftCpuCode.d ;                                                             \
+Mon 17:32: 	  cc -M -std=gnu99 -g -O3 -Wall -Wextra -I../RunRules/Simulation/include  -I '/opt/maxeler/maxcompiler/include/slic'  -Wno-error SpreadHftCpuCode.c > ../RunRules/Simulation/objects/c/SpreadHftCpuCode.d.$$ ;                                 \
+Mon 17:32:       sed 's,\(SpreadHftCpuCode\)\.o[ :]*,../RunRules/Simulation/objects/c/\1.o ../RunRules/Simulation/objects/c/SpreadHftCpuCode.d : ,g' < ../RunRules/Simulation/objects/c/SpreadHftCpuCode.d.$$ > ../RunRules/Simulation/objects/c/SpreadHftCpuCode.d; \
+Mon 17:32:       rm -f ../RunRules/Simulation/objects/c/SpreadHftCpuCode.d.$$
+Mon 17:32: make[1]: Leaving directory `/home/demo/workspace/spread-hft/CPUCode'
+Mon 17:32: make[1]: Entering directory `/home/demo/workspace/spread-hft/CPUCode'
+Mon 17:32: cc -std=gnu99 -g -O3 -Wall -Wextra -I../RunRules/Simulation/include  -I '/opt/maxeler/maxcompiler/include/slic'  -c SpreadHftCpuCode.c -o ../RunRules/Simulation/objects/c/SpreadHftCpuCode.o
+Mon 17:32: cc -std=gnu99 -g -O3 -Wall -Wextra -I../RunRules/Simulation/include  -I '/opt/maxeler/maxcompiler/include/slic'  -o ../RunRules/Simulation/binaries/DefaultApplication ../RunRules/Simulation/objects/maxfiles/slic_MovingAverageSimple.o ../RunRules/Simulation/objects/c/SpreadHftCpuCode.o -g -O3  -L '/opt/maxeler/maxcompiler/lib' -lslic -L '/opt/maxeler/maxcompiler/lib/maxeleros-sim/lib' -lmaxeleros -lpthread -lm -lrt 
+Mon 17:32: make[1]: Leaving directory `/home/demo/workspace/spread-hft/CPUCode'
+Mon 17:32: Build completed: Mon Apr 13 17:32:01 PDT 2015
+
+

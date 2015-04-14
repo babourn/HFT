@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buildProfile>
+<common>
+<boardModel type="VECTIS"/>
+<simulation enabled="true"/>
+</common>
+<maxFiles>
+<maxFile buildName="MovingAverageSimple" buildOrUseExisting="build">
+<runConfiguration askBeforeAutoBuild="false">
+<mainClass>movingaveragesimple.MovingAverageSimpleManager</mainClass>
+<maxHeapSize>2</maxHeapSize>
+</runConfiguration>
+<selectEngineTarget enabled="false">VECTIS</selectEngineTarget>
+</maxFile>
+</maxFiles>
+<cpuCode targetType="executable">
+<libraryName></libraryName>
+<exeName>DefaultApplication</exeName>
+<arguments></arguments>
+<remoteExecution enabled="false">
+<remoteMachineName></remoteMachineName>
+<scriptName></scriptName>
+</remoteExecution>
+<customDefinitions>USE_SLIC:=1</customDefinitions>
+</cpuCode>
+<simulator>
+<deleteDRAM enabled="false"/>
+<maxDRAMSize enabled="false"></maxDRAMSize>
+<DRAMFile enabled="false"></DRAMFile>
+<socketName>ch01mvavgsimpl</socketName>
+<startStopScript enabled="false"/>
+<numberOfDevices>1</numberOfDevices>
+<ethernetOneEnabled enabled="false"/>
+<ipAddressOne></ipAddressOne>
+<netmaskOne></netmaskOne>
+<pcapFileOne></pcapFileOne>
+<ethernetTwoEnabled enabled="false"/>
+<ipAddressTwo></ipAddressTwo>
+<netmaskTwo></netmaskTwo>
+<pcapFileTwo></pcapFileTwo>
+</simulator>
+</buildProfile>
